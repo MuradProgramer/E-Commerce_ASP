@@ -1,0 +1,10 @@
+﻿@model CategoryViewModel
+
+@{
+	Layout = null;
+}
+
+<form asp-controller="Category" asp-action="Create" method="post">
+	<input asp-for="Name" placeholder="name"/>
+	<button>Submit</button>
+</form>

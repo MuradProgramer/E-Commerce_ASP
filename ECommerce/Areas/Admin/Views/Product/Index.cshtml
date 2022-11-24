@@ -1,0 +1,12 @@
+﻿@model List<ProductViewModel>
+
+@{
+	Layout = null;
+}
+
+<ul>
+	@foreach (var item in Model)
+	{
+		<li>@item.Title @item.Description @item.Price @item.CategoryName<br /> <a asp-route-id="@item.Id" asp-action="Delete">Delete</a></li>
+	}
+</ul>

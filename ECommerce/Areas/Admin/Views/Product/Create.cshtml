@@ -1,0 +1,14 @@
+﻿@model CreateProductViewModel
+
+@{
+	Layout = null;
+	var categories = ViewData["Categories"] as List<SelectListItem>;
+}
+
+<form asp-controller="Product" asp-action="Create" method="post">
+	<input asp-for="Title" placeholder="title" />
+	<input asp-for="Description" placeholder="description" />
+	<input asp-for="Price" placeholder="price" />
+	<select asp-for="CategoryId" asp-items="categories"></select>
+	<button>Submit</button>
+</form>

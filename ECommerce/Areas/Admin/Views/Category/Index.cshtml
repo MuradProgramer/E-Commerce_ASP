@@ -1,0 +1,12 @@
+﻿@model List<CategoryViewModel>
+
+@{
+	Layout = null;
+}
+
+<ul>
+	@foreach (var item in Model)
+	{
+		<li>@item.Name <br /> <a asp-route-id="@item.Id" asp-action="Delete">Delete</a></li>
+	}
+</ul>
