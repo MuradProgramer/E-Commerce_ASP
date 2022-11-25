@@ -1,12 +1,60 @@
 ﻿@model List<ProductViewModel>
+<p style="height: 80px"></p>
+<div class="box-container">
+    
+   @foreach (var item in Model)
+   {
+		<div class="box">
+            <div class="content">
+                <h2>Name: @item.Title</h2>
+                <h2>Description: @item.Description</h2>
+                <h2>Price: @item.Price</h2>
+                <h2>Category Name: @item.CategoryName</h2>
+                <p style="height: 30px"></p>
+                <a class="button" asp-route-id="@item.Id" asp-action="Delete">Delete</a>
+            </div>
+        </div>
+   }
 
-@{
-	Layout = null;
-}
+</div>
 
-<ul>
-	@foreach (var item in Model)
-	{
-		<li>@item.Title @item.Description @item.Price @item.CategoryName<br /> <a asp-route-id="@item.Id" asp-action="Delete">Delete</a></li>
-	}
-</ul>
+<style>
+    .box-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        gap: 1rem;
+    }
+
+    .box-container .box{
+        text-align: left;
+        border: var(--border);
+        padding: 2rem;
+        border: 1px solid black;
+    }
+
+    .box-container .box .content h2{
+        color: black;
+        font-size: 1.5rem;
+    }
+
+    .button {
+        bottom: 5px; 
+        text-align: center;
+        background: #FF3D00;
+        font-size: 1rem;
+        padding: 20px;
+        margin-top: 40px;
+        text-decoration: none;
+        border-radius: 5px;
+        border-color: transparent;
+        box-shadow: 0 0 5px #FF3D00;
+        color: white;
+    }
+
+    .button:hover {
+        background: #FFC107;
+        box-shadow: 0 0 5px #FFC107;
+        transition: .7s;
+        transform: scale(1.03);
+    }
+</style>

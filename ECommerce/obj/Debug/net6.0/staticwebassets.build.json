@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "Q4XsAECmIyfh8hARJ9nQstPliw55hmmEPGleWNCN89I=",
+  "Source": "ECommerce",
+  "BasePath": "_content/ECommerce",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ECommerce\\wwwroot",
+      "Source": "ECommerce",
+      "ContentRoot": "C:\\Users\\Musa_ii90\\Desktop\\A\\ECommerce\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Musa_ii90\\Desktop\\A\\ECommerce\\wwwroot\\css\\SideBarStyle.css",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Musa_ii90\\Desktop\\A\\ECommerce\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "css/SideBarStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\SideBarStyle.css"
+    }
+  ]
+}
