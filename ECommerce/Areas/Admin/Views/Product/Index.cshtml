@@ -1,18 +1,22 @@
 ﻿@model List<ProductViewModel>
-<p style="height: 80px"></p>
+<p style="height: 20px"></p>
 <div class="box-container">
     
    @foreach (var item in Model)
    {
-		<div class="box">
-            <div class="content">
-                <h2>Name: @item.Title</h2>
-                <h2>Description: @item.Description</h2>
-                <h2>Price: @item.Price</h2>
-                <h2>Category Name: @item.CategoryName</h2>
-                <p style="height: 30px"></p>
-                <a class="button" asp-route-id="@item.Id" asp-action="Delete">Delete</a>
+        <div class="card">
+
+          @*<div class="imgBox">
+            <img src="https://www.corsair.com/corsairmedia/sys_master/productcontent/CH-9300011-NA-M65_PRO_RGB_BLK_04.png" alt="mouse corsair" class="mouse">
+          </div>*@
+
+            <div class="contentBox">
+                <h2>@item.CategoryName</h2>
+                <h3>@item.Description</h3>
+                <h2>@item.Title @item.Price $</h2>
+                <a class="buy" asp-route-id="@item.Id" asp-action="Delete">Delete</a>
             </div>
+
         </div>
    }
 
@@ -29,11 +33,11 @@
         text-align: left;
         border: var(--border);
         padding: 2rem;
-        border: 1px solid black;
+        border: 1px solid white;
     }
 
     .box-container .box .content h2{
-        color: black;
+        color: white;
         font-size: 1.5rem;
     }
 

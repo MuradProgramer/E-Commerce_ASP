@@ -4,10 +4,37 @@
 	var categories = ViewData["Categories"] as List<SelectListItem>;
 }
 
-<form asp-controller="Product" asp-action="Create" method="post">
-	<input asp-for="Title" placeholder="title" />
-	<input asp-for="Description" placeholder="description" />
-	<input asp-for="Price" placeholder="price" />
-	<select asp-for="CategoryId" asp-items="categories"></select>
-	<button>Submit</button>
-</form>
+<div class="container" style="text-align: center; margin-top: 100px;">
+	<form asp-controller="Product" asp-action="Create" method="post">
+		<input asp-for="Title" placeholder="Product Name" /><br />
+		<input asp-for="Description" placeholder="Product Description" /><br />
+		<input asp-for="Price" placeholder="Product Price" /><br />
+		<select asp-for="CategoryId" asp-items="categories"></select><br />
+		<input style="background: #EB1616;" type="submit" />
+	</form>
+</div>
+
+<style>
+	select {
+        background: transparent;
+        color: white;
+        margin-top: 20px;
+        border: 3px solid #EB1616;
+        border-radius: 5px;
+        font-size: 3rem;
+    }
+
+    select option { 
+        background: black; 
+        border: 3px solid #EB1616;
+    }
+
+    input {
+        background: transparent;
+        color: white;
+		margin-top: 20px;
+        border: 3px solid #EB1616;
+        border-radius: 10px;
+        font-size: 3rem;
+    }
+</style>

@@ -1,107 +1,50 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
     <title>ECommerce</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="~/css/SideBarStyle.css" />
-    <!-- Boxicons CSS -->
-    <link
-      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
+    <link href="~/img/favicon.ico" rel="icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="~/css/style.css" rel="stylesheet">
+    <link href="~/css/card.css" rel="stylesheet">
 </head>
+
 <body>
 
-    @*Header is starts here*@
+    <div class="container-fluid position-relative d-flex p-0">
 
-    <nav>
-      <div class="logo">
-        <i class="bx bx-menu menu-icon"></i>
-        <span class="logo-name">MuradParvin</span>
-      </div>
-      <div class="sidebar">
-        <div class="logo">
-          <i class="bx bx-menu menu-icon"></i>
-          <span class="logo-name">MuradParvin</span>
+        <partial name="PartialViews/Sidebar.cshtml"></partial>
+
+        <div class="content">
+
+            <partial name="PartialViews/Navbar.cshtml"></partial>
+
+            <main>
+                <div class="container">
+                    @RenderBody()
+                </div>
+            </main>
+
         </div>
 
-        <div class="sidebar-content">
-          <ul class="lists">
-            <li class="list">
-              <a asp-action="Index" asp-controller="Category" class="nav-link">
-                <i class="bx bx-bar-chart-category icon"></i>
-                <span class="link">Categories</span>
-              </a>
-            </li>
-            <li class="list">
-              <a asp-action="Index" asp-controller="Product" class="nav-link">
-                <i class="bx bx-folder-product icon"></i>
-                <span class="link">Products</span>
-              </a>
-            </li>
-          </ul>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 
-          <div class="bottom-cotent">
-            <li class="list">
-              <a href="#" class="nav-link">
-                <i class="bx bx-cog icon"></i>
-                <span class="link">Settings</span>
-              </a>
-            </li>
-            <li class="list">
-              <a href="#" class="nav-link">
-                <i class="bx bx-log-out icon"></i>
-                <span class="link">Logout</span>
-              </a>
-            </li>
-          </div>
-        </div>
-      </div>
-    </nav>
-
-    <section class="overlay"></section>
-
-    <script>
-      const navBar = document.querySelector("nav"),
-        menuBtns = document.querySelectorAll(".menu-icon"),
-        overlay = document.querySelector(".overlay");
-
-      menuBtns.forEach((menuBtn) => {
-        menuBtn.addEventListener("click", () => {
-          navBar.classList.toggle("open");
-        });
-      });
-
-      overlay.addEventListener("click", () => {
-        navBar.classList.remove("open");
-      });
-    </script>
-
-    @*Header is ends here*@
-
-
-    @*SideBar is starts here*@
-
-    @*SideBar is ends here*@
-    
-
-    <main>
-        <div class="container">
-            @RenderBody()
-        </div>
-    </main>
-
-    @*Footer is starts here*@
-
-    @*Footer is ends here*@
-    
-
-
-    <script src="~/js/script.js"></script>
+        <script src="~/js/main.js"></script>
+    </div>
 
 </body>
 </html>

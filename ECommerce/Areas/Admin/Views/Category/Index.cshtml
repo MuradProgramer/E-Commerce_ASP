@@ -1,8 +1,32 @@
 ﻿@model List<CategoryViewModel>
+<p style="height: 20px"></p>
+<div class="box-container">
+    
+   @foreach (var item in Model)
+   {
+        <div class="card">
 
-<ul>
-	@foreach (var item in Model)
-	{
-		<li>@item.Name <br /> <a asp-route-id="@item.Id" asp-action="Delete">Delete</a></li>
-	}
-</ul>
+          @*<div class="imgBox">
+            <img src="https://www.corsair.com/corsairmedia/sys_master/productcontent/CH-9300011-NA-M65_PRO_RGB_BLK_04.png" alt="mouse corsair" class="mouse">
+          </div>*@
+
+            <div class="contentBox">
+                <h3>Category Name</h3>
+                <p style="height: 70px"></p>
+                <h1>@item.Name</h1>
+                <p style="height: 70px"></p>
+                <a class="buy" asp-route-id="@item.Id" asp-action="Delete">Delete</a>
+            </div>
+
+        </div>
+   }
+
+</div>
+
+<style>
+    .box-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        gap: 1rem;
+    }
+</style>
