@@ -4,7 +4,7 @@ public class Tag: Entity
 {
     public string Title { get; set; }
     
-    public ICollection<ProductTag> ProductTags { get; set; }
+    public virtual ICollection<ProductTag> ProductTags { get; set; }
 
 
     public Tag() { }
