@@ -6,7 +6,7 @@
 }
 
 <div class="container" style="text-align: center; margin-top: 100px;">
-	<form asp-controller="Product" asp-action="Create" method="post">
+	<form asp-controller="Product" asp-action="Create" enctype="multipart/form-data" method="post">
 		<input asp-for="Name" required placeholder="Product Name" /><br />
 		<input asp-for="Description" placeholder="Product Description" /><br />
 		<input asp-for="Price" required placeholder="Product Price" /><br />
