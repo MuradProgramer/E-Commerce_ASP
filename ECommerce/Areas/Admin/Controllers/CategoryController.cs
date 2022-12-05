@@ -1,7 +1,6 @@
 ﻿namespace ECommerce.Areas.Admin.Controllers;
 
-[Area("Admin")]
-[Route("Category")]
+[Area("Admin"), Route("Category")]
 public class CategoryController : Controller
 {
     private AppDbContext _dbContext;
@@ -13,40 +12,38 @@ public class CategoryController : Controller
     }
 
 
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
-        var categories = _dbContext.Categories.Select(c => new CategoryViewModel(c.Id) { Name = c.Name }).ToList();
+        var categories = await _dbContext.Categories.Select(c => new CategoryViewModel(c.Id) { Name = c.Name }).ToListAsync();
 
         return View(categories);
     }
 
-    [Route("Create")]
+    [Route("Create")] 
     public IActionResult Create() => View();
 
     [Route("Delete")]
-    public IActionResult Delete(int id)
+    public async Task<IActionResult> Delete(int id)
     {
-        var category = _dbContext.Categories.First(category => category.Id == id);
+        var category = await _dbContext.Categories.FirstAsync(category => category.Id == id);
 
         _dbContext.Categories.Remove(category);
-        _dbContext.SaveChanges();
+        await _dbContext.SaveChangesAsync();
 
         return RedirectToAction("Index");
     }
 
-
-    [Route("Create")]
-    [HttpPost]
-    public IActionResult Create(CategoryViewModel viewModel)
+    [Route("Create"), HttpPost]
+    public async Task<IActionResult> Create(CategoryViewModel viewModel)
     {
-        var category = _dbContext.Categories.FirstOrDefault(c => c.Name == viewModel.Name);
+        var category = await _dbContext.Categories.FirstOrDefaultAsync(c => c.Name == viewModel.Name);
 
         if (category is not null) return Content("Category already exists!");
 
         category = TypeConverter.Convert<Category, CategoryViewModel>(viewModel);
 
-        _dbContext.Categories.Add(category);
-        _dbContext.SaveChanges();
+        await _dbContext.Categories.AddAsync(category);
+        await _dbContext.SaveChangesAsync();
 
         return RedirectToAction("Index");
     }

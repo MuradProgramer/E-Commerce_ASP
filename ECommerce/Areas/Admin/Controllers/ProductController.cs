@@ -1,7 +1,6 @@
 ﻿namespace ECommerce.Areas.Admin.Controllers;
 
-[Area("Admin")]
-[Route("Product")]
+[Area("Admin"), Route("Product")]
 public class ProductController : Controller
 {
     private AppDbContext _dbContext;
@@ -13,19 +12,19 @@ public class ProductController : Controller
     }
 
     
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
-        var products = _dbContext.Products.Include("Category")
+        var products = await _dbContext.Products.Include("Category")
             .Select(p => new ProductViewModel(p.Category.Name, p.Id) { Title = p.Title, Description = p.Description, Price = p.Price })
-            .ToList();
+            .ToListAsync();
 
         return View(products);
     }
 
     [Route("Create")]
-    public IActionResult Create()
+    public async Task<IActionResult> Create()
     {
-        var categories = _dbContext.Categories.Select(c => new SelectListItem(c.Name, c.Id.ToString())).ToList();
+        var categories = await _dbContext.Categories.Select(c => new SelectListItem(c.Name, c.Id.ToString())).ToListAsync();
 
         ViewData["Categories"] = categories;
 
@@ -33,24 +32,23 @@ public class ProductController : Controller
     }
 
     [Route("Delete")]
-    public IActionResult Delete(int id)
+    public async Task<IActionResult> Delete(int id)
     {
-        var product = _dbContext.Products.First(product => product.Id == id);
+        var product = await _dbContext.Products.FirstAsync(product => product.Id == id);
 
         _dbContext.Products.Remove(product);
-        _dbContext.SaveChanges();
+        await _dbContext.SaveChangesAsync();
 
         return RedirectToAction("Index");
     }
 
-    [Route("Create")]
-    [HttpPost]
-    public IActionResult Create(CreateProductViewModel viewModel)
+    [Route("Create"), HttpPost]
+    public async Task<IActionResult> Create(CreateProductViewModel viewModel)
     {
         var product = TypeConverter.Convert<Product, CreateProductViewModel>(viewModel);
 
-        _dbContext.Products.Add(product);
-        _dbContext.SaveChanges();
+        await _dbContext.Products.AddAsync(product);
+        await _dbContext.SaveChangesAsync();
 
         return RedirectToAction("Index");
     }

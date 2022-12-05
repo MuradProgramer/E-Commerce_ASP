@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ECommerce.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20221203114133_init")]
+    [Migration("20221205081312_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -40,6 +40,13 @@ namespace ECommerce.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Smartphone"
+                        });
                 });
 
             modelBuilder.Entity("ECommerce.Models.Concrete.Product", b =>
@@ -69,6 +76,48 @@ namespace ECommerce.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CategoryId = 1,
+                            Description = "128 GB Black",
+                            Price = 1399.99,
+                            Title = "iPhone 11"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CategoryId = 1,
+                            Description = "128 GB 5G Blue",
+                            Price = 899.99000000000001,
+                            Title = "Samsung Galaxy A53"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CategoryId = 1,
+                            Description = "4/64 GB Star Blue",
+                            Price = 459.99000000000001,
+                            Title = "Xiaomi Redmi Note 11"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CategoryId = 1,
+                            Description = "128 GB Midnight",
+                            Price = 1999.99,
+                            Title = "iPhone 13"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CategoryId = 1,
+                            Description = "6/128 GB Lite Pink",
+                            Price = 899.99000000000001,
+                            Title = "Xiaomi 12 Lite"
+                        });
                 });
 
             modelBuilder.Entity("ECommerce.Models.Concrete.Product", b =>
