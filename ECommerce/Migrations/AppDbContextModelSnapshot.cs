@@ -61,12 +61,16 @@ namespace ECommerce.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double>("Price")
-                        .HasColumnType("float");
-
-                    b.Property<string>("Title")
+                    b.Property<string>("ImageUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
 
                     b.HasKey("Id");
 
@@ -80,40 +84,89 @@ namespace ECommerce.Migrations
                             Id = 1,
                             CategoryId = 1,
                             Description = "128 GB Black",
-                            Price = 1399.99,
-                            Title = "iPhone 11"
+                            ImageUrl = "b8c9431b-955b-4bd1-bcae-8042363760a3.webp",
+                            Name = "iPhone 11",
+                            Price = 1399.99
                         },
                         new
                         {
                             Id = 2,
                             CategoryId = 1,
                             Description = "128 GB 5G Blue",
-                            Price = 899.99000000000001,
-                            Title = "Samsung Galaxy A53"
+                            ImageUrl = "129286e1-1805-4a45-965a-690bd84f81fa.webp",
+                            Name = "Samsung Galaxy A53",
+                            Price = 899.99000000000001
                         },
                         new
                         {
                             Id = 3,
                             CategoryId = 1,
-                            Description = "4/64 GB Star Blue",
-                            Price = 459.99000000000001,
-                            Title = "Xiaomi Redmi Note 11"
+                            Description = "5G 6/64 GB Graphite Gray",
+                            ImageUrl = "23e5f02d-5f21-4358-9f17-d1d1d76d149f.webp",
+                            Name = "Xiaomi Redmi Note 11 Pro",
+                            Price = 749.99000000000001
                         },
                         new
                         {
                             Id = 4,
                             CategoryId = 1,
                             Description = "128 GB Midnight",
-                            Price = 1999.99,
-                            Title = "iPhone 13"
+                            ImageUrl = "c4c04ec2-d56c-42b1-b959-d53f980ac130.webp",
+                            Name = "iPhone 13",
+                            Price = 1999.99
                         },
                         new
                         {
                             Id = 5,
                             CategoryId = 1,
-                            Description = "6/128 GB Lite Pink",
-                            Price = 899.99000000000001,
-                            Title = "Xiaomi 12 Lite"
+                            Description = "8/128 GB Pink",
+                            ImageUrl = "98b1ad68-d2d5-465a-b1b9-73996e47c200.webp",
+                            Name = "Xiaomi 12 Lite",
+                            Price = 949.99000000000001
+                        });
+                });
+
+            modelBuilder.Entity("ECommerce.Models.Concrete.ProductTag", b =>
+                {
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TagId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ProductId", "TagId");
+
+                    b.HasIndex("TagId");
+
+                    b.ToTable("ProductTags");
+                });
+
+            modelBuilder.Entity("ECommerce.Models.Concrete.Tag", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tags");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Title = "New"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Title = "Old"
                         });
                 });
 
@@ -127,9 +180,38 @@ namespace ECommerce.Migrations
                     b.Navigation("Category");
                 });
 
+            modelBuilder.Entity("ECommerce.Models.Concrete.ProductTag", b =>
+                {
+                    b.HasOne("ECommerce.Models.Concrete.Product", "Product")
+                        .WithMany("ProductTags")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ECommerce.Models.Concrete.Tag", "Tag")
+                        .WithMany("ProductTags")
+                        .HasForeignKey("TagId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("Tag");
+                });
+
             modelBuilder.Entity("ECommerce.Models.Concrete.Category", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("ECommerce.Models.Concrete.Product", b =>
+                {
+                    b.Navigation("ProductTags");
+                });
+
+            modelBuilder.Entity("ECommerce.Models.Concrete.Tag", b =>
+                {
+                    b.Navigation("ProductTags");
                 });
 #pragma warning restore 612, 618
         }

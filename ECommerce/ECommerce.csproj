@@ -15,4 +15,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Views\Tag\" />
+    <Folder Include="wwwroot\Uploads\" />
+  </ItemGroup>
+
 </Project>

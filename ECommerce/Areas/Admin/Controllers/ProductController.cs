@@ -15,7 +15,7 @@ public class ProductController : Controller
     public async Task<IActionResult> Index()
     {
         var products = await _dbContext.Products.Include("Category")
-            .Select(p => new ProductViewModel(p.Category.Name, p.Id) { Title = p.Title, Description = p.Description, Price = p.Price })
+            .Select(p => new ProductViewModel(p.Id, p.Category.Name, null) { Name = p.Name, Description = p.Description, Price = p.Price, ImageUrl = p.ImageUrl })
             .ToListAsync();
 
         return View(products);
@@ -25,8 +25,10 @@ public class ProductController : Controller
     public async Task<IActionResult> Create()
     {
         var categories = await _dbContext.Categories.Select(c => new SelectListItem(c.Name, c.Id.ToString())).ToListAsync();
-
+        var tags = await _dbContext.Tags.Select(t => new SelectListItem(t.Title, t.Id.ToString())).ToListAsync();
+        
         ViewData["Categories"] = categories;
+        ViewData["Tags"] = tags;
 
         return View();
     }
@@ -47,7 +49,15 @@ public class ProductController : Controller
     {
         var product = TypeConverter.Convert<Product, CreateProductViewModel>(viewModel);
 
+        var path = $"{Guid.NewGuid()}{Path.GetExtension(viewModel.ImageUrl.FileName)}";
+        using var fs = new FileStream($"wwwroot/Uploads/{path}", FileMode.CreateNew, FileAccess.Write);
+        await viewModel.ImageUrl.CopyToAsync(fs);
+
+        product.ImageUrl = path;
         await _dbContext.Products.AddAsync(product);
+
+        foreach (var tag in viewModel.tagIds) _dbContext.ProductTags.AddAsync(new ProductTag(product.Id, tag));
+        
         await _dbContext.SaveChangesAsync();
 
         return RedirectToAction("Index");
