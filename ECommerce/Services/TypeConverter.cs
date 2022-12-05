@@ -11,7 +11,11 @@ public static class TypeConverter
         {
             var property = type.GetProperty(p.Name);
 
-            if (property is not null) property.SetValue(result, p.GetValue(model));
+            try
+            {
+                property.SetValue(result, p.GetValue(model));
+            }
+            catch { }
         });
 
         return result;

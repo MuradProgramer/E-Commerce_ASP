@@ -55,7 +55,9 @@ public class ProductController : Controller
         await viewModel.ImageUrl.CopyToAsync(fs);
 
         product.ImageUrl = path;
+
         await _dbContext.Products.AddAsync(product);
+        await _dbContext.SaveChangesAsync();
 
         foreach (var tag in viewModel.tagIds) _dbContext.ProductTags.AddAsync(new ProductTag(product.Id, tag));
         
