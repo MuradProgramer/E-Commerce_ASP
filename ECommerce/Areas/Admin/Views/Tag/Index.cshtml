@@ -1,4 +1,4 @@
-﻿@model List<CategoryViewModel>
+﻿@model List<TagViewModel>
 <p style="height: 20px"></p>
 <div class="box-container">
     
@@ -6,14 +6,10 @@
    {
         <div class="card">
 
-          @*<div class="imgBox">
-            <img src="https://www.corsair.com/corsairmedia/sys_master/productcontent/CH-9300011-NA-M65_PRO_RGB_BLK_04.png" alt="mouse corsair" class="mouse">
-          </div>*@
-
             <div class="contentBox">
-                <h3>Category Name</h3>
+                <h3>Tag Title</h3>
                 <p style="height: 70px"></p>
-                <h1>@item.Name</h1>
+                <h1>@item.Title</h1>
                 <p style="height: 70px"></p>
                 <a class="buy" asp-route-id="@item.Id" asp-action="Delete">Delete</a>
             </div>
