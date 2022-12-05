@@ -12,6 +12,7 @@ public class CategoryController : Controller
     }
 
 
+    [Route("Index")]
     public async Task<IActionResult> Index()
     {
         var categories = await _dbContext.Categories.Select(c => new CategoryViewModel(c.Id) { Name = c.Name }).ToListAsync();
@@ -46,5 +47,13 @@ public class CategoryController : Controller
         await _dbContext.SaveChangesAsync();
 
         return RedirectToAction("Index");
+    }
+
+    [Route("Search")]
+    public async Task<IActionResult> Search(string pattern)
+    {
+        var categories = await _dbContext.Categories.Where(c => c.Name.Contains(pattern)).Select(c => new CategoryViewModel(c.Id) { Name = c.Name }).ToListAsync();
+
+        return View(categories);
     }
 }

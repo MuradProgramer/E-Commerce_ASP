@@ -12,6 +12,7 @@ public class TagController : Controller
     }
 
 
+    [Route("Index")]
     public async Task<IActionResult> Index()
     {
         var tags = await _dbContext.Tags.Select(t => new TagViewModel(t.Id) { Title = t.Title }).ToListAsync();
@@ -46,5 +47,13 @@ public class TagController : Controller
         await _dbContext.SaveChangesAsync();
 
         return RedirectToAction("Index");
+    }
+
+    [Route("Search")]
+    public async Task<IActionResult> Search(string pattern)
+    {
+        var tags = await _dbContext.Tags.Where(t => t.Title.Contains(pattern)).Select(t => new TagViewModel(t.Id) { Title = t.Title }).ToListAsync();
+
+        return View(tags);
     }
 }

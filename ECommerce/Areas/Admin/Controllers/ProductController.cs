@@ -11,7 +11,8 @@ public class ProductController : Controller
         _dbContext = dbContext;
     }
 
-    
+
+    [Route("Index")]
     public async Task<IActionResult> Index()
     {
         var products = await _dbContext.Products.Include("Category")
@@ -61,5 +62,15 @@ public class ProductController : Controller
         await _dbContext.SaveChangesAsync();
 
         return RedirectToAction("Index");
+    }
+
+    [Route("Search")]
+    public async Task<IActionResult> Search(string pattern)
+    {
+        var products = await _dbContext.Products.Include("Category").Where(p => p.Name.Contains(pattern))
+            .Select(p => new ProductViewModel(p.Id, p.Category.Name, null) { Name = p.Name, Description = p.Description, Price = p.Price, ImageUrl = p.ImageUrl })
+            .ToListAsync();
+
+        return View(products);
     }
 }

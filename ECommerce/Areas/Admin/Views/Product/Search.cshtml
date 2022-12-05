@@ -1,0 +1,70 @@
+﻿@model List<ProductViewModel>
+<p style="height: 20px"></p>
+<div class="box-container">
+
+    @foreach (var item in Model)
+    {
+        <div class="card">
+
+            <div class="imgBox">
+                <img src="~/Uploads/@item.ImageUrl" alt="@item.ImageUrl" class="mouse">
+            </div>
+
+            <div class="contentBox">
+                <h2>@item.CategoryName</h2>
+                <h3>@item.Description</h3>
+                <h2>@item.Name</h2>
+                <h2>@item.Price $</h2>
+                <a class="buy" asp-route-id="@item.Id" asp-action="Delete">Delete</a>
+            </div>
+
+        </div>
+    }
+
+</div>
+
+<style>
+    .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        gap: 1rem;
+    }
+
+        .box-container .box {
+            text-align: left;
+            border: var(--border);
+            padding: 2rem;
+            border: 1px solid white;
+        }
+
+            .box-container .box .content h2 {
+                color: white;
+                font-size: 1.5rem;
+            }
+
+    .contentBox h2 {
+        font-size: 1.5em !important;
+        letter-spacing: 1px;
+    }
+
+    .button {
+        bottom: 5px;
+        text-align: center;
+        background: #FF3D00;
+        font-size: 1rem;
+        padding: 20px;
+        margin-top: 40px;
+        text-decoration: none;
+        border-radius: 5px;
+        border-color: transparent;
+        box-shadow: 0 0 5px #FF3D00;
+        color: white;
+    }
+
+        .button:hover {
+            background: #FFC107;
+            box-shadow: 0 0 5px #FFC107;
+            transition: .7s;
+            transform: scale(1.03);
+        }
+</style>
