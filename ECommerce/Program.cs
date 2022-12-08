@@ -8,10 +8,6 @@ var app = builder.Build();
 app.UseStaticFiles();
 app.UseRouting();
 
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllers();
-    endpoints.MapFallbackToAreaController("Index", "Home", "Admin");
-});
+app.MapControllers();
 
 app.Run();

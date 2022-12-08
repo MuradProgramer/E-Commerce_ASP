@@ -1,6 +1,6 @@
 ﻿namespace ECommerce.Areas.Admin.Controllers;
 
-[Area("Admin"), Route("Product")]
+[Area("Admin"), Route("Admin/Product")]
 public class ProductController : Controller
 {
     private AppDbContext _dbContext;
@@ -51,7 +51,7 @@ public class ProductController : Controller
         var product = TypeConverter.Convert<Product, CreateProductViewModel>(viewModel);
 
         var path = $"{Guid.NewGuid()}{Path.GetExtension(viewModel.ImageUrl.FileName)}";
-        using var fs = new FileStream($"wwwroot/Uploads/{path}", FileMode.CreateNew, FileAccess.Write);
+        using var fs = new FileStream($"wwwroot/images/products/{path}", FileMode.CreateNew, FileAccess.Write);
         await viewModel.ImageUrl.CopyToAsync(fs);
 
         product.ImageUrl = path;
@@ -59,7 +59,8 @@ public class ProductController : Controller
         await _dbContext.Products.AddAsync(product);
         await _dbContext.SaveChangesAsync();
 
-        foreach (var tag in viewModel.tagIds) _dbContext.ProductTags.AddAsync(new ProductTag(product.Id, tag));
+        if (viewModel.tagIds is not null) 
+            foreach (var tag in viewModel.tagIds) _dbContext.ProductTags.AddAsync(new ProductTag(product.Id, tag));
         
         await _dbContext.SaveChangesAsync();
 

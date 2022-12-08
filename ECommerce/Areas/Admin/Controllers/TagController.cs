@@ -1,6 +1,6 @@
 ﻿namespace ECommerce.Areas.Admin.Controllers;
 
-[Area("Admin"), Route("Tag")]
+[Area("Admin"), Route("Admin/Tag")]
 public class TagController : Controller
 {
     private AppDbContext _dbContext;

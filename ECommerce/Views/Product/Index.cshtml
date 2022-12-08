@@ -1,0 +1,72 @@
+﻿@model List<ProductViewModel>
+
+@{
+	var random = new Random();
+}
+
+<div class="product-container container">
+	<div class="product-main">
+
+		<h2 class="title">Products</h2>
+
+		<div class="product-grid">
+
+			@foreach (var item in Model)
+			{
+				<div class="showcase">
+
+					<div class="showcase-banner">
+
+						<img src="~/images/products/@item.ImageUrl" width="300" class="product-img default">
+						<img src="~/images/products/@item.ImageUrl" width="300" class="product-img hover">
+
+						<p class="showcase-badge">%</p>
+
+						<div class="showcase-actions">
+
+							<button class="btn-action">
+								<ion-icon name="heart-outline"></ion-icon>
+							</button>
+
+							<button class="btn-action">
+								<ion-icon name="eye-outline"></ion-icon>
+							</button>
+
+							<button class="btn-action">
+								<ion-icon name="repeat-outline"></ion-icon>
+							</button>
+
+							<button class="btn-action">
+								<ion-icon name="bag-add-outline"></ion-icon>
+							</button>
+
+						</div>
+
+					</div>
+
+					<div class="showcase-content">
+
+						<a href="#" class="showcase-category">@item.CategoryName</a>
+
+						<a href="#">
+							<h3 class="showcase-title">@item.Name</h3>
+						</a>
+
+						<a href="#">
+							<h3 class="showcase-title">@item.Description</h3>
+						</a>
+
+						<div class="price-box">
+							<p class="price">$@(string.Format("{0:00.00}", item.Price))</p>
+							<del>$@(string.Format("{0:00.00}", item.Price + random.Next(1, 20)))</del>
+						</div>
+
+					</div>
+
+				</div>
+			}
+
+		</div>
+
+	</div>
+</div>

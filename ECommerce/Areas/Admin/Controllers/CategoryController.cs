@@ -1,6 +1,6 @@
 ﻿namespace ECommerce.Areas.Admin.Controllers;
 
-[Area("Admin"), Route("Category")]
+[Area("Admin"), Route("Admin/Category")]
 public class CategoryController : Controller
 {
     private AppDbContext _dbContext;
