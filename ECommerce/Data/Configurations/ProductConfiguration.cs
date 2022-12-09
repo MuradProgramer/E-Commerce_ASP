@@ -11,13 +11,13 @@ public class ProductConfiguration : IEntityTypeConfiguration<Product>
 
         var products = new List<Product>()
         {
-            new Product(".", "Mens Winter Leathers Jackets", 32, "jacket-1.jpg") { Id = 1, CategoryId = 1 },
-            new Product(".", "Mens Winter Leathers Jackets", 48, "jacket-2.jpg") { Id = 2, CategoryId = 1 },
-            new Product(".", "Smart watche Vital Plus", 100, "watch-1.jpg") { Id = 3, CategoryId = 2 },
-            new Product(".", "Pocket Watch Leather Pouch", 150, "watch-3.jpg") { Id = 4, CategoryId = 2 },
-            new Product(".", "Pure Garment Dyed Cotton Shirt", 45, "shirt-1.jpg") { Id = 5, CategoryId = 3 },
-            new Product(".", "Casual Men's Brown shoes", 45, "shoe-2.jpg") { Id = 6, CategoryId = 4 },
-            new Product(".", "Men's Leather Formal Wear shoes", 50, "shoe-1.jpg") { Id = 7, CategoryId = 4 }
+            new Product("Winter Jacket", "Mens Winter Leathers Jackets", 32, "jacket-1.jpg") { Id = 1, CategoryId = 1 },
+            new Product("Winter Jacket", "Mens Winter Leathers Jackets", 48, "jacket-2.jpg") { Id = 2, CategoryId = 1 },
+            new Product("Smarth Watch", "Smart watche Vital Plus", 100, "watch-1.jpg") { Id = 3, CategoryId = 2 },
+            new Product("Pocket Watch", "Pocket Watch Leather Pouch", 150, "watch-3.jpg") { Id = 4, CategoryId = 2 },
+            new Product("Cotton Shirt", "Pure Garment Dyed Cotton Shirt", 45, "shirt-1.jpg") { Id = 5, CategoryId = 3 },
+            new Product("Casual Shoes", "Casual Men's Brown shoes", 45, "shoe-2.jpg") { Id = 6, CategoryId = 4 },
+            new Product("Formal Shoes", "Men's Leather Formal Wear shoes", 50, "shoe-1.jpg") { Id = 7, CategoryId = 4 }
         };
 
         builder.HasData(products);

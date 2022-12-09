@@ -101,20 +101,25 @@ namespace ECommerce.Migrations
             migrationBuilder.InsertData(
                 table: "Tags",
                 columns: new[] { "Id", "Title" },
-                values: new object[] { 1, "Newer" });
+                values: new object[,]
+                {
+                    { 1, "Newer" },
+                    { 2, "Smart" },
+                    { 3, "Casual" }
+                });
 
             migrationBuilder.InsertData(
                 table: "Products",
                 columns: new[] { "Id", "CategoryId", "Description", "ImageUrl", "Name", "Price" },
                 values: new object[,]
                 {
-                    { 1, 1, "Mens Winter Leathers Jackets", "jacket-1.jpg", ".", 32.0 },
-                    { 2, 1, "Mens Winter Leathers Jackets", "jacket-2.jpg", ".", 48.0 },
-                    { 3, 2, "Smart watche Vital Plus", "watch-1.jpg", ".", 100.0 },
-                    { 4, 2, "Pocket Watch Leather Pouch", "watch-3.jpg", ".", 150.0 },
-                    { 5, 3, "Pure Garment Dyed Cotton Shirt", "shirt-1.jpg", ".", 45.0 },
-                    { 6, 4, "Casual Men's Brown shoes", "shoe-2.jpg", ".", 45.0 },
-                    { 7, 4, "Men's Leather Formal Wear shoes", "shoe-1.jpg", ".", 50.0 }
+                    { 1, 1, "Mens Winter Leathers Jackets", "jacket-1.jpg", "Winter Jacket", 32.0 },
+                    { 2, 1, "Mens Winter Leathers Jackets", "jacket-2.jpg", "Winter Jacket", 48.0 },
+                    { 3, 2, "Smart watche Vital Plus", "watch-1.jpg", "Smarth Watch", 100.0 },
+                    { 4, 2, "Pocket Watch Leather Pouch", "watch-3.jpg", "Pocket Watch", 150.0 },
+                    { 5, 3, "Pure Garment Dyed Cotton Shirt", "shirt-1.jpg", "Cotton Shirt", 45.0 },
+                    { 6, 4, "Casual Men's Brown shoes", "shoe-2.jpg", "Casual Shoes", 45.0 },
+                    { 7, 4, "Men's Leather Formal Wear shoes", "shoe-1.jpg", "Formal Shoes", 50.0 }
                 });
 
             migrationBuilder.InsertData(
@@ -123,7 +128,9 @@ namespace ECommerce.Migrations
                 values: new object[,]
                 {
                     { 2, 1 },
+                    { 3, 2 },
                     { 4, 1 },
+                    { 6, 3 },
                     { 7, 1 }
                 });
 

@@ -21,7 +21,9 @@ public class ProductTagConfiguration : IEntityTypeConfiguration<ProductTag>
         {
             new ProductTag(2, 1),
             new ProductTag(4, 1),
-            new ProductTag(7, 1)
+            new ProductTag(7, 1),
+            new ProductTag(3, 2),
+            new ProductTag(6, 3),
         };
 
         builder.HasData(productTags);

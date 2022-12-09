@@ -114,7 +114,7 @@ namespace ECommerce.Migrations
                             CategoryId = 1,
                             Description = "Mens Winter Leathers Jackets",
                             ImageUrl = "jacket-1.jpg",
-                            Name = ".",
+                            Name = "Winter Jacket",
                             Price = 32.0
                         },
                         new
@@ -123,7 +123,7 @@ namespace ECommerce.Migrations
                             CategoryId = 1,
                             Description = "Mens Winter Leathers Jackets",
                             ImageUrl = "jacket-2.jpg",
-                            Name = ".",
+                            Name = "Winter Jacket",
                             Price = 48.0
                         },
                         new
@@ -132,7 +132,7 @@ namespace ECommerce.Migrations
                             CategoryId = 2,
                             Description = "Smart watche Vital Plus",
                             ImageUrl = "watch-1.jpg",
-                            Name = ".",
+                            Name = "Smarth Watch",
                             Price = 100.0
                         },
                         new
@@ -141,7 +141,7 @@ namespace ECommerce.Migrations
                             CategoryId = 2,
                             Description = "Pocket Watch Leather Pouch",
                             ImageUrl = "watch-3.jpg",
-                            Name = ".",
+                            Name = "Pocket Watch",
                             Price = 150.0
                         },
                         new
@@ -150,7 +150,7 @@ namespace ECommerce.Migrations
                             CategoryId = 3,
                             Description = "Pure Garment Dyed Cotton Shirt",
                             ImageUrl = "shirt-1.jpg",
-                            Name = ".",
+                            Name = "Cotton Shirt",
                             Price = 45.0
                         },
                         new
@@ -159,7 +159,7 @@ namespace ECommerce.Migrations
                             CategoryId = 4,
                             Description = "Casual Men's Brown shoes",
                             ImageUrl = "shoe-2.jpg",
-                            Name = ".",
+                            Name = "Casual Shoes",
                             Price = 45.0
                         },
                         new
@@ -168,7 +168,7 @@ namespace ECommerce.Migrations
                             CategoryId = 4,
                             Description = "Men's Leather Formal Wear shoes",
                             ImageUrl = "shoe-1.jpg",
-                            Name = ".",
+                            Name = "Formal Shoes",
                             Price = 50.0
                         });
                 });
@@ -202,6 +202,16 @@ namespace ECommerce.Migrations
                         {
                             ProductId = 7,
                             TagId = 1
+                        },
+                        new
+                        {
+                            ProductId = 3,
+                            TagId = 2
+                        },
+                        new
+                        {
+                            ProductId = 6,
+                            TagId = 3
                         });
                 });
 
@@ -226,6 +236,16 @@ namespace ECommerce.Migrations
                         {
                             Id = 1,
                             Title = "Newer"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Title = "Smart"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Title = "Casual"
                         });
                 });
 

@@ -9,13 +9,33 @@
 
 <div class="category">
 
-      <div class="container">
+	<div class="container">
 
-        <div class="category-item-container has-scrollbar">
+		<div class="category-item-container has-scrollbar">
 
-		  @foreach (var item in categories)
-		  {
-			  <div class="category-item">
+			<div class="category-item">
+
+				<div class="category-img-box">
+					<img src="~/images/icons/bag.svg" width="30">
+				</div>
+
+				<div class="category-content-box">
+
+					<div class="category-content-flex">
+						<h3 class="category-item-title">All</h3>
+
+						<p class="category-item-amount">(8)</p>
+					</div>
+
+					<a class="category-btn" asp-action="FilterOnCategory" asp-route-categoryId="0">Show all</a>
+
+				</div>
+
+			</div>
+
+			@foreach (var item in categories)
+			{
+				<div class="category-item">
 
 					<div class="category-img-box">
 						<img src="~/images/icons/@item.ImageUrl" width="30">
@@ -33,14 +53,14 @@
 
 					</div>
 
-			  </div>
-		  }
+				</div>
+			}
 
-        </div>
+		</div>
 
-      </div>
+	</div>
 
-    </div>
+</div>
 
 <div class="product-container">
 	<div class="container">
@@ -61,7 +81,7 @@
 					<form asp-controller="Product" asp-action="FilterOnTags" method="get">
 						@for (int i = 0; i < @Model.Count; i++)
 						{
-							<li class="sidebar-menu-category">
+						<li class="sidebar-menu-category">
 
 							<div class="sidebar-accordion-menu">
 
@@ -79,7 +99,8 @@
 
 						</li>
 						}
-						<button class="btn-newsletter" style="width: 100%; margin: 10px 0 0 0;">Filter</button>
+					<input type="hidden" name="categoryId" value="@ViewBag.CurrentCategory" />
+					<button class="btn-newsletter" style="width: 100%; margin: 10px 0 0 0;">Filter</button>
 					</form>
 				</ul>
 
@@ -132,7 +153,7 @@
 								<a href="#" class="showcase-category">@item.CategoryName</a>
 
 								<a href="#">
-									<h3 class="showcase-title">@item.Name</h3>
+									<h3 class="showcase-title"><b>@item.Name</b></h3>
 								</a>
 
 								<a href="#">
