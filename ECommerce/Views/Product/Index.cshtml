@@ -1,71 +1,159 @@
-﻿@model List<ProductViewModel>
+﻿@model List<FilterTagViewModel>
 
 @{
 	var random = new Random();
+
+	var products = ViewData["Products"] as List<ProductViewModel>;
+	var categories = ViewData["Categories"] as List<CategoryViewModel>;
 }
 
-<div class="product-container container">
-	<div class="product-main">
+<div class="category">
 
-		<h2 class="title">Products</h2>
+      <div class="container">
 
-		<div class="product-grid">
+        <div class="category-item-container has-scrollbar">
 
-			@foreach (var item in Model)
-			{
-				<div class="showcase">
+		  @foreach (var item in categories)
+		  {
+			  <div class="category-item">
 
-					<div class="showcase-banner">
+					<div class="category-img-box">
+						<img src="~/images/icons/dress.svg" width="30">
+					</div>
 
-						<img src="~/images/products/@item.ImageUrl" width="300" class="product-img default">
-						<img src="~/images/products/@item.ImageUrl" width="300" class="product-img hover">
+					<div class="category-content-box">
 
-						<p class="showcase-badge">%</p>
+						<div class="category-content-flex">
+							<h3 class="category-item-title">@item.Name</h3>
 
-						<div class="showcase-actions">
-
-							<button class="btn-action">
-								<ion-icon name="heart-outline"></ion-icon>
-							</button>
-
-							<button class="btn-action">
-								<ion-icon name="eye-outline"></ion-icon>
-							</button>
-
-							<button class="btn-action">
-								<ion-icon name="repeat-outline"></ion-icon>
-							</button>
-
-							<button class="btn-action">
-								<ion-icon name="bag-add-outline"></ion-icon>
-							</button>
-
+							<p class="category-item-amount">(53)</p>
 						</div>
+
+						<a class="category-btn" asp-action="FilterOnCategory" asp-route-categoryId="@item.Id">Show all</a>
 
 					</div>
 
-					<div class="showcase-content">
+			  </div>
+		  }
 
-						<a href="#" class="showcase-category">@item.CategoryName</a>
+        </div>
 
-						<a href="#">
-							<h3 class="showcase-title">@item.Name</h3>
-						</a>
+      </div>
 
-						<a href="#">
-							<h3 class="showcase-title">@item.Description</h3>
-						</a>
+    </div>
 
-						<div class="price-box">
-							<p class="price">$@(string.Format("{0:00.00}", item.Price))</p>
-							<del>$@(string.Format("{0:00.00}", item.Price + random.Next(1, 20)))</del>
+<div class="product-container">
+	<div class="container">
+
+		<div class="sidebar  has-scrollbar" style="padding: 5px 0 0 0" data-mobile-menu>
+
+			<div class="sidebar-category">
+
+				<div class="sidebar-top">
+					<h2 class="sidebar-title">Tags</h2>
+
+					<button class="sidebar-close-btn" data-mobile-menu-close-btn>
+						<ion-icon name="close-outline"></ion-icon>
+					</button>
+				</div>
+
+				<ul class="sidebar-menu-category-list">
+					<form asp-controller="Product" asp-action="FilterOnTags" method="get">
+						@for (int i = 0; i < @Model.Count; i++)
+						{
+							<li class="sidebar-menu-category">
+
+							<div class="sidebar-accordion-menu">
+
+								<div class="menu-title-flex">
+									<img src="~/images/icons/dress.svg" alt="clothes" width="20" height="20" class="menu-title-img">
+
+									<p class="menu-title">@Model[i].Title</p>
+								</div>
+
+								<div>
+									<input type="hidden" asp-for="@Model[i].Id">
+									<input type="hidden" asp-for="@Model[i].Title">
+									<input type="checkbox" asp-for="@Model[i].Checked">
+								</div>
+
+							</div>
+
+						</li>
+						}
+						<button class="btn-newsletter" style="width: 100%; margin: 10px 0 0 0;">Filter</button>
+					</form>
+				</ul>
+
+			</div>
+
+		</div>
+
+		<div class="product-box">
+			<div class="product-main">
+
+				<h2 class="title">Products</h2>
+
+				<div class="product-grid">
+
+					@foreach (var item in products)
+					{
+						<div class="showcase">
+
+							<div class="showcase-banner">
+
+								<img src="~/images/products/@item.ImageUrl" width="300" class="product-img default">
+								<img src="~/images/products/@item.ImageUrl" width="300" class="product-img hover">
+
+								<p class="showcase-badge">%</p>
+
+								<div class="showcase-actions">
+
+									<button class="btn-action">
+										<ion-icon name="heart-outline"></ion-icon>
+									</button>
+
+									<button class="btn-action">
+										<ion-icon name="eye-outline"></ion-icon>
+									</button>
+
+									<button class="btn-action">
+										<ion-icon name="repeat-outline"></ion-icon>
+									</button>
+
+									<button class="btn-action">
+										<ion-icon name="bag-add-outline"></ion-icon>
+									</button>
+
+								</div>
+
+							</div>
+
+							<div class="showcase-content">
+
+								<a href="#" class="showcase-category">@item.CategoryName</a>
+
+								<a href="#">
+									<h3 class="showcase-title">@item.Name</h3>
+								</a>
+
+								<a href="#">
+									<h3 class="showcase-title">@item.Description</h3>
+								</a>
+
+								<div class="price-box">
+									<p class="price">$@(string.Format("{0:00.00}", item.Price))</p>
+									<del>$@(string.Format("{0:00.00}", item.Price + random.Next(1, 20)))</del>
+								</div>
+
+							</div>
+
 						</div>
-
-					</div>
+					}
 
 				</div>
-			}
 
+			</div>
 		</div>
 
 	</div>

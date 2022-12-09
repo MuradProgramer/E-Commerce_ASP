@@ -16,7 +16,7 @@ public class ProductController : Controller
     public async Task<IActionResult> Index()
     {
         var products = await _dbContext.Products.Include("Category")
-            .Select(p => new ProductViewModel(p.Id, p.Category.Name, null) { Name = p.Name, Description = p.Description, Price = p.Price, ImageUrl = p.ImageUrl })
+            .Select(p => new ProductViewModel(p.Id, p.Category.Name, p.ImageUrl) { Name = p.Name, Description = p.Description, Price = p.Price })
             .ToListAsync();
 
         return View(products);
