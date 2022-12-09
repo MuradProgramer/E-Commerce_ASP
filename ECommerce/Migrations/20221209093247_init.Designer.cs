@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ECommerce.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20221205094958_init")]
+    [Migration("20221209093247_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -33,6 +33,10 @@ namespace ECommerce.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -45,7 +49,32 @@ namespace ECommerce.Migrations
                         new
                         {
                             Id = 1,
-                            Name = "Smartphone"
+                            ImageUrl = "jacket.svg",
+                            Name = "Jacket"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            ImageUrl = "watch.svg",
+                            Name = "Watch"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            ImageUrl = "tee.svg",
+                            Name = "T-Shirt"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            ImageUrl = "shoes.svg",
+                            Name = "Shoes"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            ImageUrl = "hat.svg",
+                            Name = "Hat"
                         });
                 });
 
@@ -86,46 +115,64 @@ namespace ECommerce.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            Description = "128 GB Black",
-                            ImageUrl = "b8c9431b-955b-4bd1-bcae-8042363760a3.webp",
-                            Name = "iPhone 11",
-                            Price = 1399.99
+                            Description = "Mens Winter Leathers Jackets",
+                            ImageUrl = "jacket-1.jpg",
+                            Name = ".",
+                            Price = 32.0
                         },
                         new
                         {
                             Id = 2,
                             CategoryId = 1,
-                            Description = "128 GB 5G Blue",
-                            ImageUrl = "129286e1-1805-4a45-965a-690bd84f81fa.webp",
-                            Name = "Samsung Galaxy A53",
-                            Price = 899.99000000000001
+                            Description = "Mens Winter Leathers Jackets",
+                            ImageUrl = "jacket-2.jpg",
+                            Name = ".",
+                            Price = 48.0
                         },
                         new
                         {
                             Id = 3,
-                            CategoryId = 1,
-                            Description = "5G 6/64 GB Graphite Gray",
-                            ImageUrl = "23e5f02d-5f21-4358-9f17-d1d1d76d149f.webp",
-                            Name = "Xiaomi Redmi Note 11 Pro",
-                            Price = 749.99000000000001
+                            CategoryId = 2,
+                            Description = "Smart watche Vital Plus",
+                            ImageUrl = "watch-1.jpg",
+                            Name = ".",
+                            Price = 100.0
                         },
                         new
                         {
                             Id = 4,
-                            CategoryId = 1,
-                            Description = "128 GB Midnight",
-                            ImageUrl = "c4c04ec2-d56c-42b1-b959-d53f980ac130.webp",
-                            Name = "iPhone 13",
-                            Price = 1999.99
+                            CategoryId = 2,
+                            Description = "Pocket Watch Leather Pouch",
+                            ImageUrl = "watch-3.jpg",
+                            Name = ".",
+                            Price = 150.0
                         },
                         new
                         {
                             Id = 5,
-                            CategoryId = 1,
-                            Description = "8/128 GB Pink",
-                            ImageUrl = "98b1ad68-d2d5-465a-b1b9-73996e47c200.webp",
-                            Name = "Xiaomi 12 Lite",
-                            Price = 949.99000000000001
+                            CategoryId = 3,
+                            Description = "Pure Garment Dyed Cotton Shirt",
+                            ImageUrl = "shirt-1.jpg",
+                            Name = ".",
+                            Price = 45.0
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CategoryId = 4,
+                            Description = "Casual Men's Brown shoes",
+                            ImageUrl = "shoe-2.jpg",
+                            Name = ".",
+                            Price = 45.0
+                        },
+                        new
+                        {
+                            Id = 7,
+                            CategoryId = 4,
+                            Description = "Men's Leather Formal Wear shoes",
+                            ImageUrl = "shoe-1.jpg",
+                            Name = ".",
+                            Price = 50.0
                         });
                 });
 
@@ -142,6 +189,23 @@ namespace ECommerce.Migrations
                     b.HasIndex("TagId");
 
                     b.ToTable("ProductTags");
+
+                    b.HasData(
+                        new
+                        {
+                            ProductId = 2,
+                            TagId = 1
+                        },
+                        new
+                        {
+                            ProductId = 4,
+                            TagId = 1
+                        },
+                        new
+                        {
+                            ProductId = 7,
+                            TagId = 1
+                        });
                 });
 
             modelBuilder.Entity("ECommerce.Models.Concrete.Tag", b =>
@@ -164,12 +228,7 @@ namespace ECommerce.Migrations
                         new
                         {
                             Id = 1,
-                            Title = "New"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Title = "Old"
+                            Title = "Newer"
                         });
                 });
 

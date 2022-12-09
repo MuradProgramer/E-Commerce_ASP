@@ -9,4 +9,4 @@ public abstract record BaseProductViewModel
 
 public record ProductViewModel(int Id, string CategoryName, string ImageUrl) : BaseProductViewModel;
 
-public record CreateProductViewModel(int CategoryId, IFormFile ImageUrl, int[] tagIds) : BaseProductViewModel;
+public record CreateProductViewModel(int CategoryId, IFormFile Image, int[] tagIds) : BaseProductViewModel;

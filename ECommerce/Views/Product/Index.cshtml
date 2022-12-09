@@ -18,7 +18,7 @@
 			  <div class="category-item">
 
 					<div class="category-img-box">
-						<img src="~/images/icons/dress.svg" width="30">
+						<img src="~/images/icons/@item.ImageUrl" width="30">
 					</div>
 
 					<div class="category-content-box">
@@ -26,7 +26,7 @@
 						<div class="category-content-flex">
 							<h3 class="category-item-title">@item.Name</h3>
 
-							<p class="category-item-amount">(53)</p>
+							<p class="category-item-amount">(5)</p>
 						</div>
 
 						<a class="category-btn" asp-action="FilterOnCategory" asp-route-categoryId="@item.Id">Show all</a>
@@ -66,8 +66,6 @@
 							<div class="sidebar-accordion-menu">
 
 								<div class="menu-title-flex">
-									<img src="~/images/icons/dress.svg" alt="clothes" width="20" height="20" class="menu-title-img">
-
 									<p class="menu-title">@Model[i].Title</p>
 								</div>
 

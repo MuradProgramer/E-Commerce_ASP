@@ -15,5 +15,15 @@ public class ProductTagConfiguration : IEntityTypeConfiguration<ProductTag>
             .WithMany(t => t.ProductTags)
             .HasForeignKey(pt => pt.TagId)
             .OnDelete(DeleteBehavior.Cascade);
+
+
+        var productTags = new List<ProductTag>()
+        {
+            new ProductTag(2, 1),
+            new ProductTag(4, 1),
+            new ProductTag(7, 1)
+        };
+
+        builder.HasData(productTags);
     }
 }

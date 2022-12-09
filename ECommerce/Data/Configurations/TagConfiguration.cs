@@ -7,7 +7,6 @@ public class TagConfiguration : IEntityTypeConfiguration<Tag>
         var tags = new List<Tag>()
         {
             new Tag("Newer") { Id = 1 },
-            new Tag("Older") { Id = 2 }
         };
 
         builder.HasData(tags);

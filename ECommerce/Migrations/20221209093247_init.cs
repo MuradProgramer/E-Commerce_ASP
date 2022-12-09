@@ -18,7 +18,8 @@ namespace ECommerce.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -87,28 +88,43 @@ namespace ECommerce.Migrations
 
             migrationBuilder.InsertData(
                 table: "Categories",
-                columns: new[] { "Id", "Name" },
-                values: new object[] { 1, "Smartphone" });
+                columns: new[] { "Id", "ImageUrl", "Name" },
+                values: new object[,]
+                {
+                    { 1, "jacket.svg", "Jacket" },
+                    { 2, "watch.svg", "Watch" },
+                    { 3, "tee.svg", "T-Shirt" },
+                    { 4, "shoes.svg", "Shoes" },
+                    { 5, "hat.svg", "Hat" }
+                });
 
             migrationBuilder.InsertData(
                 table: "Tags",
                 columns: new[] { "Id", "Title" },
-                values: new object[,]
-                {
-                    { 1, "New" },
-                    { 2, "Old" }
-                });
+                values: new object[] { 1, "Newer" });
 
             migrationBuilder.InsertData(
                 table: "Products",
                 columns: new[] { "Id", "CategoryId", "Description", "ImageUrl", "Name", "Price" },
                 values: new object[,]
                 {
-                    { 1, 1, "128 GB Black", "b8c9431b-955b-4bd1-bcae-8042363760a3.webp", "iPhone 11", 1399.99 },
-                    { 2, 1, "128 GB 5G Blue", "129286e1-1805-4a45-965a-690bd84f81fa.webp", "Samsung Galaxy A53", 899.99000000000001 },
-                    { 3, 1, "5G 6/64 GB Graphite Gray", "23e5f02d-5f21-4358-9f17-d1d1d76d149f.webp", "Xiaomi Redmi Note 11 Pro", 749.99000000000001 },
-                    { 4, 1, "128 GB Midnight", "c4c04ec2-d56c-42b1-b959-d53f980ac130.webp", "iPhone 13", 1999.99 },
-                    { 5, 1, "8/128 GB Pink", "98b1ad68-d2d5-465a-b1b9-73996e47c200.webp", "Xiaomi 12 Lite", 949.99000000000001 }
+                    { 1, 1, "Mens Winter Leathers Jackets", "jacket-1.jpg", ".", 32.0 },
+                    { 2, 1, "Mens Winter Leathers Jackets", "jacket-2.jpg", ".", 48.0 },
+                    { 3, 2, "Smart watche Vital Plus", "watch-1.jpg", ".", 100.0 },
+                    { 4, 2, "Pocket Watch Leather Pouch", "watch-3.jpg", ".", 150.0 },
+                    { 5, 3, "Pure Garment Dyed Cotton Shirt", "shirt-1.jpg", ".", 45.0 },
+                    { 6, 4, "Casual Men's Brown shoes", "shoe-2.jpg", ".", 45.0 },
+                    { 7, 4, "Men's Leather Formal Wear shoes", "shoe-1.jpg", ".", 50.0 }
+                });
+
+            migrationBuilder.InsertData(
+                table: "ProductTags",
+                columns: new[] { "ProductId", "TagId" },
+                values: new object[,]
+                {
+                    { 2, 1 },
+                    { 4, 1 },
+                    { 7, 1 }
                 });
 
             migrationBuilder.CreateIndex(

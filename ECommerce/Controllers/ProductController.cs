@@ -19,7 +19,7 @@ public class ProductController : Controller
             .Select(p => new ProductViewModel(p.Id, p.Category.Name, p.ImageUrl) { Name = p.Name, Description = p.Description, Price = p.Price })
             .ToListAsync();
 
-        var categories = await _dbContext.Categories.Select(c => new CategoryViewModel(c.Id) { Name = c.Name }).ToListAsync();
+        var categories = await _dbContext.Categories.Select(c => new CategoryViewModel(c.Id, c.ImageUrl) { Name = c.Name }).ToListAsync();
         var tags = await _dbContext.Tags.Select(t => new FilterTagViewModel(t.Id, false) { Title = t.Title }).ToListAsync();
 
         ViewData["Products"] = products;
@@ -35,7 +35,7 @@ public class ProductController : Controller
             .Select(p => new ProductViewModel(p.Id, p.Category.Name, p.ImageUrl) { Name = p.Name, Description = p.Description, Price = p.Price })
             .ToListAsync();
 
-        var categories = await _dbContext.Categories.Select(c => new CategoryViewModel(c.Id) { Name = c.Name }).ToListAsync();
+        var categories = await _dbContext.Categories.Select(c => new CategoryViewModel(c.Id, c.ImageUrl) { Name = c.Name }).ToListAsync();
         var tags = await _dbContext.Tags.Select(t => new FilterTagViewModel(t.Id, false) { Title = t.Title }).ToListAsync();
 
         ViewData["Products"] = products;
@@ -79,7 +79,7 @@ public class ProductController : Controller
                                                 .ToListAsync();
         }
         
-        var categories = await _dbContext.Categories.Select(c => new CategoryViewModel(c.Id) { Name = c.Name }).ToListAsync();
+        var categories = await _dbContext.Categories.Select(c => new CategoryViewModel(c.Id, c.ImageUrl) { Name = c.Name }).ToListAsync();
 
         ViewData["Products"] = products;
         ViewData["Categories"] = categories;

@@ -1,8 +1,9 @@
-﻿@model CategoryViewModel
+﻿@model CreateCategoryViewModel
 
 <div class="container" style="text-align: center; margin-top: 100px;">
-	<form asp-controller="Category" asp-action="Create" method="post">
+    <form asp-controller="Category" asp-action="Create" enctype="multipart/form-data" method="post">
 	    <input asp-for="Name" placeholder="Category Name"/>
+        <input type="file" asp-for="Image" />
 	    <input style="background: #EB1616;" type="submit" />
     </form>
 </div>

@@ -15,7 +15,7 @@ public class CategoryController : Controller
     [Route("Index")]
     public async Task<IActionResult> Index()
     {
-        var categories = await _dbContext.Categories.Select(c => new CategoryViewModel(c.Id) { Name = c.Name }).ToListAsync();
+        var categories = await _dbContext.Categories.Select(c => new CategoryViewModel(c.Id, c.ImageUrl) { Name = c.Name }).ToListAsync();
 
         return View(categories);
     }
@@ -35,13 +35,19 @@ public class CategoryController : Controller
     }
 
     [Route("Create"), HttpPost]
-    public async Task<IActionResult> Create(CategoryViewModel viewModel)
+    public async Task<IActionResult> Create(CreateCategoryViewModel viewModel)
     {
         var category = await _dbContext.Categories.FirstOrDefaultAsync(c => c.Name == viewModel.Name);
 
         if (category is not null) return Content("Category already exists!");
 
-        category = TypeConverter.Convert<Category, CategoryViewModel>(viewModel);
+        category = TypeConverter.Convert<Category, CreateCategoryViewModel>(viewModel);
+
+        var path = $"{Guid.NewGuid()}{Path.GetExtension(viewModel.Image.FileName)}";
+        using var fs = new FileStream($"wwwroot/images/icons/{path}", FileMode.CreateNew, FileAccess.Write);
+        await viewModel.Image.CopyToAsync(fs);
+
+        category.ImageUrl = path;
 
         await _dbContext.Categories.AddAsync(category);
         await _dbContext.SaveChangesAsync();
@@ -52,7 +58,7 @@ public class CategoryController : Controller
     [Route("Search")]
     public async Task<IActionResult> Search(string pattern)
     {
-        var categories = await _dbContext.Categories.Where(c => c.Name.Contains(pattern)).Select(c => new CategoryViewModel(c.Id) { Name = c.Name }).ToListAsync();
+        var categories = await _dbContext.Categories.Where(c => c.Name.Contains(pattern)).Select(c => new CategoryViewModel(c.Id, c.ImageUrl) { Name = c.Name }).ToListAsync();
 
         return View(categories);
     }

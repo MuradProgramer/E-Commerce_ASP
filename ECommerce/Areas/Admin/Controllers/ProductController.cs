@@ -50,9 +50,9 @@ public class ProductController : Controller
     {
         var product = TypeConverter.Convert<Product, CreateProductViewModel>(viewModel);
 
-        var path = $"{Guid.NewGuid()}{Path.GetExtension(viewModel.ImageUrl.FileName)}";
+        var path = $"{Guid.NewGuid()}{Path.GetExtension(viewModel.Image.FileName)}";
         using var fs = new FileStream($"wwwroot/images/products/{path}", FileMode.CreateNew, FileAccess.Write);
-        await viewModel.ImageUrl.CopyToAsync(fs);
+        await viewModel.Image.CopyToAsync(fs);
 
         product.ImageUrl = path;
 
