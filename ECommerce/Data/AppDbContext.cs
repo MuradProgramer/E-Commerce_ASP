@@ -1,6 +1,6 @@
 ﻿namespace ECommerce.Data;
 
-public class AppDbContext : DbContext
+public class AppDbContext : IdentityDbContext
 {
     public AppDbContext(DbContextOptions options) : base(options) { }
 
@@ -18,5 +18,6 @@ public class AppDbContext : DbContext
         modelBuilder.ApplyConfiguration(new CategoryConfiguration());
         modelBuilder.ApplyConfiguration(new TagConfiguration());
         modelBuilder.ApplyConfiguration(new ProductTagConfiguration());
+        base.OnModelCreating(modelBuilder);
     }
 }

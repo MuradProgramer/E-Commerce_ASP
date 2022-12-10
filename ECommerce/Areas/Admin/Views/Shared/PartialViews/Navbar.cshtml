@@ -20,6 +20,17 @@
                 <a href="#" class="dropdown-item">Settings</a>
                 <a href="#" class="dropdown-item">Log Out</a>
             </div>
+            @*@if (User.Identity.IsAuthenticated)
+                {
+                    <div>
+                        <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
+                            
+                            <a asp-action="Logout" asp-controller="Account" style="text-decoration:none; cursor:pointer;">Logout</a>
+                        </div>
+                        
+                        <span class="d-none d-lg-inline-flex">@User.Identity.Name</span>
+                    </div>
+                }*@
         </div>
     </div>
 </nav>
