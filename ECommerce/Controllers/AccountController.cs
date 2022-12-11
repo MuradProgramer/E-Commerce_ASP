@@ -29,7 +29,7 @@ public class AccountController : Controller
                 UserName = model.Email,
                 Email = model.Email
             };
-            var result = await userManager.CreateAsync(user, model.Password); // POSHOL NAXUY
+            var result = await userManager.CreateAsync(user, model.Password);
             if (result.Succeeded)
             {
                 await signInManager.SignInAsync(user, true);
