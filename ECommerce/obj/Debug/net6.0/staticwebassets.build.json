@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XWjI+YNv/Esb0invJWS7YsoBmsKY92CX5AsaHWalJqM=",
+  "Hash": "hNk6vJW2C9S+FBA1QWJPoG/e69KdhYFl2Rr0OYX/UG8=",
   "Source": "ECommerce",
   "BasePath": "_content/ECommerce",
   "Mode": "Default",
@@ -1035,6 +1035,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Admin\\js\\main.js"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\css\\LogRegStyle.css",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "css/LogRegStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\LogRegStyle.css"
     },
     {
       "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\css\\style.css",

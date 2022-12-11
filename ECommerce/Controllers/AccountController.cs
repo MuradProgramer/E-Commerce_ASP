@@ -26,19 +26,22 @@ public class AccountController : Controller
         {
             var user = new AppUser
             {
-                UserName = model.Email,
+                UserName = string.Format("{0}{1}", model.Name, model.Surname),
                 Email = model.Email
             };
+            var userCheck = await userManager.FindByEmailAsync(model.Email);
             var result = await userManager.CreateAsync(user, model.Password);
-            if (result.Succeeded)
+            if (result.Succeeded && userCheck == null)
             {
                 await signInManager.SignInAsync(user, true);
                 return RedirectToAction("Index", "Home", new { area="Admin" });
             }
             else
             {
-                foreach (var item in result.Errors)
-                    ModelState.AddModelError(item.Code, item.Description);
+                if (userCheck != null)
+                    ModelState.AddModelError("register", "this email is alredy exist");
+                //foreach (var item in result.Errors)
+                //    ModelState.AddModelError(item.Code, item.Description);
             }
         }
         return View();
