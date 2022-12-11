@@ -4,7 +4,40 @@
     Layout = null;
 }
 
-<form asp-action="Login" method="post">
+<link href="~/css/LogRegStyle.css" rel="stylesheet">
+
+<div class="box" style="height:500px;">
+    <div class="form">
+        <form asp-action="Login" method="post">
+            <input type="hidden" name="returnUrl" value="@ViewBag.ReturnUrl" class="form-control" />
+            <h2>Login</h2>
+
+            <div asp-validation-summary="All" style="color:red;"></div>
+
+            <div class="input-box">
+                <input type="text" asp-for="Email" required="required"  />
+                <span class="custom-placeholder">Email</span>
+                <i></i>
+                <span asp-validation-for="Email"></span>
+            </div>
+            <div class="input-box">
+                <input type="password" asp-for="Password" required="required"/>
+                <span class="custom-placeholder">Password</span>
+                <i></i>
+                <span asp-validation-for="Password"></span>
+            </div>
+
+            <div class="links">
+                <a href="#">Forgot Password?</a>
+                <a asp-action="Register" asp-controller="Account">Register</a>
+            </div>
+
+            <input type="submit" value="Login" />
+        </form>
+    </div>
+</div>
+
+@*<form asp-action="Login" method="post">
     <input type="hidden" name="returnUrl" value="@ViewBag.ReturnUrl" class="form-control" />
     <div asp-validation-summary="All" class="text-danger"></div>
     <div class="form-group">
@@ -19,9 +52,9 @@
     </div>
     <input type="submit" class="btn btn-primary" />
     <a asp-action="Register" asp-controller="Account">Register</a>
-</form>
+</form>*@
 
-<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+@*<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
 <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>*@

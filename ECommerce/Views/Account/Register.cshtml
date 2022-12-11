@@ -9,7 +9,7 @@
 <div class="box">
     <div class="form">
         <form asp-action="Register" method="post">
-            <h2>Sign Up</h2>
+            <h2>Register</h2>
 
             <div asp-validation-summary="All" style="color:red;"></div>
 
@@ -42,6 +42,11 @@
                 <span class="custom-placeholder">ConfirmPassword</span>
                 <i></i>
                 <span asp-validation-for="ConfirmPassword"></span>
+            </div>
+
+            <div class="links">
+                <a href="#">Have Account?</a>
+                <a asp-action="Login" asp-controller="Account">Login</a>
             </div>
 
             <input type="submit" value="Register" />
