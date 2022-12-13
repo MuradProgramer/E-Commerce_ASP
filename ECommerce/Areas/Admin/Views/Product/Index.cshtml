@@ -1,70 +1,93 @@
 ﻿@model List<ProductViewModel>
 <p style="height: 20px"></p>
-<div class="box-container">
-    
-   @foreach (var item in Model)
-   {
-        <div class="card">
 
-          <div class="imgBox">
-            <img src="~/images/products/@item.ImageUrl" alt="@item.ImageUrl" class="mouse">
-          </div>
+<section>
+    <div class="tbl-header">
+        <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+                <tr>
+                    <th>Category Name</th>
+                    <th>Description</th>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <div class="tbl-content">
+        <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.CategoryName</td>
+                        <td>@item.Description</td>
+                        <td>@item.Name</td>
+                        <td>@item.Price $</td>
+                        <td><a class="buy" asp-route-id="@item.Id" asp-action="Delete">Delete</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</section>
 
-            <div class="contentBox">
-                <h2>@item.CategoryName</h2>
-                <h3>@item.Description</h3>
-                <h2>@item.Name</h2>
-                <h2>@item.Price $</h2>
-                <a class="buy" asp-route-id="@item.Id" asp-action="Delete">Delete</a>
-            </div>
-
-        </div>
-   }
-
-</div>
+<script>
+    $(window).on("load resize ", function() {
+        var scrollWidth = $('.tbl-content').width() - $('.tbl-content table').width();
+        $('.tbl-header').css({'padding-right':scrollWidth});
+    }).resize();
+</script>
 
 <style>
-    .box-container{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-        gap: 1rem;
+    table{
+        width:100%;
+        table-layout: fixed;
     }
-
-    .box-container .box{
+    .tbl-header{
+        background-color: #20c997;
+    }
+    .tbl-content{
+        height:100%;
+        overflow-x:auto;
+        margin-top: 0px;
+        border: 1px solid #20c997;
+    }
+    th{
+        padding: 20px 15px;
         text-align: left;
-        border: var(--border);
-        padding: 2rem;
-        border: 1px solid white;
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    td{
+        padding: 15px;
+        text-align: left;
+        vertical-align:middle;
+        font-weight: 300;
+        font-size: 1.2rem;
+        color: #000;
+        border-bottom: solid 1px #20c997;
     }
 
-    .box-container .box .content h2{
-        color: white;
-        font-size: 1.5rem;
+    body{
+        background: transparent;
+    }
+    section{
+        margin: 20px;
     }
 
-    .contentBox h2 {
-        font-size: 1.5em !important;
-        letter-spacing: 1px;
-    }
+    /* for custom scrollbar for webkit browser*/
 
-    .button {
-        bottom: 5px; 
-        text-align: center;
-        background: #FF3D00;
-        font-size: 1rem;
-        padding: 20px;
-        margin-top: 40px;
-        text-decoration: none;
-        border-radius: 5px;
-        border-color: transparent;
-        box-shadow: 0 0 5px #FF3D00;
-        color: white;
-    }
-
-    .button:hover {
-        background: #FFC107;
-        box-shadow: 0 0 5px #FFC107;
-        transition: .7s;
-        transform: scale(1.03);
+    ::-webkit-scrollbar {
+        width: 6px;
+    } 
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    } 
+    ::-webkit-scrollbar-thumb {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
     }
 </style>

@@ -51,7 +51,6 @@
     
     transition: .5s;
 }
-
 .card:hover .imgBox img {
     max-width: 50%;
       

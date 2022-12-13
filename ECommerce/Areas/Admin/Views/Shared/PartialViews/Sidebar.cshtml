@@ -1,4 +1,33 @@
-﻿<div class="sidebar pe-4 pb-3">
+﻿<div class="sidebar" id="sidebar">
+	<div class="sidebar-inner slimscroll">
+		<div id="sidebar-menu" class="sidebar-menu">
+			<ul>
+				<li class="active"> <a asp-action="Index" asp-controller="Home"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a> </li>
+				<li class="list-divider"></li>
+				<li class="submenu"> <a href="#"><i class="fas fa-suitcase"></i> <span> Category </span> <span class="menu-arrow"></span></a>
+					<ul class="submenu_class" style="display: none;">
+						<li><a asp-action="Index" asp-controller="Category"> All Categories </a></li>
+						<li><a asp-action="Create" asp-controller="Category"> Add Categories </a></li>
+					</ul>
+				</li>
+				<li class="submenu"> <a href="#"><i class="fas fa-suitcase"></i> <span> Product </span> <span class="menu-arrow"></span></a>
+					<ul class="submenu_class" style="display: none;">
+						<li><a asp-action="Index" asp-controller="Product"> All Products </a></li>
+						<li><a asp-action="Create" asp-controller="Product"> Add Product </a></li>
+					</ul>
+				</li>
+				<li class="submenu"> <a href="#"><i class="fas fa-suitcase"></i> <span> Tag </span> <span class="menu-arrow"></span></a>
+					<ul class="submenu_class" style="display: none;">
+						<li><a asp-action="Index" asp-controller="Tag"> All Tags </a></li>
+						<li><a asp-action="Create" asp-controller="Tag"> Add Tag </a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+@*<div class="sidebar pe-4 pb-3">
     <nav class="navbar bg-secondary navbar-dark">
 
         <a href="/admin" class="navbar-brand mx-4 mb-3">
@@ -18,7 +47,7 @@
         </div>
 
         <div class="navbar-nav w-100">
-            @*<a asp-action="Index" asp-controller="Category" class="nav-item nav-link" ><i class="fa fa-tachometer-alt me-2"></i>Categories</a>*@
+            <a asp-action="Index" asp-controller="Category" class="nav-item nav-link" ><i class="fa fa-tachometer-alt me-2"></i>Categories</a> ///////////////
 
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i>Categories</a>
@@ -44,8 +73,8 @@
                 </div>
             </div>
 
-            @*<a asp-action="Index" asp-controller="Product" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Products</a>*@
+            <a asp-action="Index" asp-controller="Product" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Products</a> ///////////////
         </div>
 
     </nav>
-</div>
+</div>*@

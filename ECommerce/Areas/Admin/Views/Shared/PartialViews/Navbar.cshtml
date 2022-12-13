@@ -1,5 +1,37 @@
-﻿<nav class="navbar navbar-expand bg-secondary navbar-dark sticky-top px-4 py-0">
-    <a asp-area="Admin" class="navbar-brand d-flex d-lg-none me-4">
+<div class="header">
+	<div class="header-left">
+		<a asp-action="Index" asp-controller="Home" class="logo"> <img src="~/Admin/assets/img/hotel_logo.png" width="50" height="70" alt="logo"> <span class="logoclass">Admin</span> </a>
+		<a asp-action="Index" asp-controller="Home" class="logo logo-small"> <img src="~/Admin/assets/img/hotel_logo.png" alt="Logo" width="30" height="30"> </a>
+	</div>
+	<a href="javascript:void(0);" id="toggle_btn"> <i class="fe fe-text-align-left"></i> </a>
+	<a class="mobile_btn" id="mobile_btn"> <i class="fas fa-bars"></i> </a>
+	<ul class="nav user-menu">
+		<li class="nav-item dropdown has-arrow">
+			<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"> <span class="user-img"><img class="rounded-circle" src="~/Admin/assets/img/profiles/avatar-01.jpg" width="31" alt="Soeng Souy"></span> </a>
+			<div class="dropdown-menu">
+				<div class="user-header">
+					<div class="avatar avatar-sm"> <img src="~/Admin/assets/img/profiles/avatar-01.jpg" alt="User Image" class="avatar-img rounded-circle"> </div>
+					<div class="user-text">
+						<h6>@User.Identity.Name</h6>
+						<p class="text-muted mb-0">Admin</p>
+					</div>
+				</div> 
+				<a class="dropdown-item" href="#l">My Profile</a> 
+				<a class="dropdown-item" href="#">Account Settings</a> 
+				<a class="dropdown-item" asp-action="Logout" asp-controller="Account" asp-area="">Logout</a> 
+			</div>
+		</li>
+	</ul>
+	<div class="top-nav-search">
+		<form asp-action="Search" method="get">
+			<input type="search" name="pattern" class="form-control" placeholder="Search here">
+			<button class="btn" type="submit"><i class="fas fa-search"></i></button>
+		</form>
+	</div>
+</div>
+
+@*<nav class="navbar navbar-expand bg-secondary navbar-dark sticky-top px-4 py-0">
+    <a asp-action="Index" asp-controller="Category" class="navbar-brand d-flex d-lg-none me-4">
         <h2 class="text-primary mb-0"><i class="fa fa-user-edit"></i></h2>
     </a>
     <a href="#" class="sidebar-toggler flex-shrink-0">
@@ -22,4 +54,4 @@
             </div>
         </div>
     </div>
-</nav>
+</nav>*@

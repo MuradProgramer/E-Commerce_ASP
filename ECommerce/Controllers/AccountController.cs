@@ -41,6 +41,11 @@ public class AccountController : Controller
             {
                 if (userCheck != null)
                     ModelState.AddModelError("register", "this email is alredy exist");
+                else
+                {
+                    foreach (var item in result.Errors)
+                        ModelState.AddModelError(item.Code, item.Description);
+                }
             }
         }
 
@@ -60,6 +65,7 @@ public class AccountController : Controller
         if (ModelState.IsValid)
         {
             var user = await _userManager.FindByEmailAsync(model.Email);
+
             if (user != null)
             {
                 if (await _userManager.CheckPasswordAsync(user, model.Password))

@@ -2,50 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>ECommerce</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
-
-    <link href="~/Admin/img/favicon.ico" rel="icon">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
-
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-    <link href="~/Admin/css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="~/Admin/css/style.css" rel="stylesheet">
-    <link href="~/Admin/css/card.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<title>Admin Panel</title>
+	<link rel="shortcut icon" type="image/x-icon" href="~/Admin/assets/img/favicon.png">
+	<link rel="stylesheet" href="~/Admin/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="~/Admin/assets/plugins/fontawesome/css/fontawesome.min.css">
+	<link rel="stylesheet" href="~/Admin/assets/plugins/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="~/Admin/assets/css/feathericon.min.css">
+	<link rel="stylehseet" href="https://cdn.oesmith.co.uk/morris-0.5.1.css">
+	<link rel="stylesheet" href="~/Admin/assets/plugins/morris/morris.css">
+	<link rel="stylesheet" href="~/Admin/assets/css/style.css">
+	<link rel="stylesheet" href="~/Admin/assets/css/card.css"/>
 </head>
 
 <body>
 
-    <div class="container-fluid position-relative d-flex p-0">
+    <div class="main-wrapper">
+		
+		<partial name="PartialViews/Sidebar.cshtml"></partial>
+		
+		<partial name="PartialViews/Navbar.cshtml"></partial>
 
-        <partial name="PartialViews/Sidebar.cshtml"></partial>
+		<div class="page-wrapper">
+			<div class="content container-fluid">
+				<p style="height: 20px"></p>
+				<main>
+					<div class="container">
+						@RenderBody()
+					</div>
+				</main>
+			</div>
+		</div>
+	</div>
 
-        <div class="content">
-
-            <partial name="PartialViews/Navbar.cshtml"></partial>
-
-            <main>
-                <div class="container">
-                    @RenderBody()
-                </div>
-            </main>
-
-        </div>
-
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-
-        <script src="~/Admin/js/main.js"></script>
-        
-    </div>
+	<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<script src="~/Admin/assets/js/jquery-3.5.1.min.js"></script>
+	<script src="~/Admin/assets/js/popper.min.js"></script>
+	<script src="~/Admin/assets/js/bootstrap.min.js"></script>
+	<script src="~/Admin/assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+	<script src="~/Admin/assets/plugins/raphael/raphael.min.js"></script>
+	<script src="~/Admin/assets/plugins/morris/morris.min.js"></script>
+	<script src="~/Admin/assets/js/chart.morris.js"></script>
+	<script src="~/Admin/assets/js/script.js"></script>
 
 </body>
 </html>

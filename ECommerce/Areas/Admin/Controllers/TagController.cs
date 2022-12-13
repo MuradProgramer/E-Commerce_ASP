@@ -53,6 +53,8 @@ public class TagController : Controller
     [Route("Search")]
     public async Task<IActionResult> Search(string pattern)
     {
+        if (pattern is null) return RedirectToAction("Index");
+
         var tags = await _dbContext.Tags.Where(t => t.Title.Contains(pattern)).Select(t => new TagViewModel(t.Id) { Title = t.Title }).ToListAsync();
 
         return View(tags);
