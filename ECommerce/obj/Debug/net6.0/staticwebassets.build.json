@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OQreodPaEm3Fzsl7kuFU5sGswY3lHq0Y0bZaZO9vX2E=",
+  "Hash": "8pyX88Mpug9GvDs2L/zaXEEW38pXmacjOiVKFDAiGaM=",
   "Source": "ECommerce",
   "BasePath": "_content/ECommerce",
   "Mode": "Default",
@@ -2531,6 +2531,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Admin\\img\\user.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\css\\CreateCategoryProductStyle.css",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "css/CreateCategoryProductStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\CreateCategoryProductStyle.css"
     },
     {
       "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\css\\LogRegStyle.css",

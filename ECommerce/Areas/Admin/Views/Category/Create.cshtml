@@ -1,34 +1,20 @@
 ﻿@model CreateCategoryViewModel
 
-<div class="container" style="text-align: center; margin-top: 100px;">
-    <form asp-controller="Category" asp-action="Create" enctype="multipart/form-data" method="post">
-	    <input asp-for="Name" placeholder="Category Name"/>
-        <input type="file" asp-for="Image" />
-	    <input style="background: #EB1616;" type="submit" />
-    </form>
+<link href="~/css/CreateCategoryProductStyle.css" rel="stylesheet">
+
+<div class="box" style="height:400px; margin-top: 100px;">
+    <div class="form">
+        <form asp-controller="Category" asp-action="Create" enctype="multipart/form-data" method="post">
+
+            <div class="input-box">
+                <input type="text" asp-for="Name" required="required"  />
+                <span class="custom-placeholder">Category Name</span>
+                <i></i>
+            </div>
+
+            <input type="file" asp-for="Image" style="margin-top: 50px;"/>
+
+            <input type="submit" value="Add" style="margin-top: 50px;"/>
+        </form>
+    </div>
 </div>
-
-<style>
-	select {
-        background: transparent;
-        color: white;
-        margin-top: 20px;
-        border: 3px solid #EB1616;
-        border-radius: 5px;
-        font-size: 3rem;
-    }
-
-    select option { 
-        background: black; 
-        border: 3px solid #EB1616;
-    }
-
-    input {
-        background: transparent;
-        color: white;
-		margin-top: 20px;
-        border: 3px solid #EB1616;
-        border-radius: 10px;
-        font-size: 3rem;
-    }
-</style>
