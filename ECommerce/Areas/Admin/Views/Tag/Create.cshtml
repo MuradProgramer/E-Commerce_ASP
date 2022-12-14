@@ -1,33 +1,18 @@
 ﻿@model TagViewModel
 
-<div class="container" style="text-align: center; margin-top: 100px;">
-	<form asp-controller="Tag" asp-action="Create" method="post">
-	    <input asp-for="Title" placeholder="Tag Title"/>
-	    <input style="background: #EB1616;" type="submit" />
-    </form>
+<link href="~/css/CreateCategoryProductStyle.css" rel="stylesheet">
+
+<div class="box" style="height:300px; margin-top: 200px;">
+    <div class="form">
+        <form asp-controller="Tag" asp-action="Create" enctype="multipart/form-data" method="post">
+
+            <div class="input-box">
+                <input type="text" asp-for="Title" required="required"  />
+                <span class="custom-placeholder">Category Name</span>
+                <i></i>
+            </div>
+
+            <input type="submit" value="Add" style="margin-top: 50px;"/>
+        </form>
+    </div>
 </div>
-
-<style>
-	select {
-        background: transparent;
-        color: white;
-        margin-top: 20px;
-        border: 3px solid #EB1616;
-        border-radius: 5px;
-        font-size: 3rem;
-    }
-
-    select option { 
-        background: black; 
-        border: 3px solid #EB1616;
-    }
-
-    input {
-        background: transparent;
-        color: white;
-		margin-top: 20px;
-        border: 3px solid #EB1616;
-        border-radius: 10px;
-        font-size: 3rem;
-    }
-</style>
