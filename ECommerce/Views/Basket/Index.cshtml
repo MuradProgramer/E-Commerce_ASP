@@ -4,7 +4,7 @@
 	<div class="CartContainer">
 		<div class="Header">
 			<h3 class="Heading">Shopping Cart</h3>
-			<h5 class="Action">Remove all</h5>
+			<h5><a asp-action="Clear" class="Action">Remove all</a></h5>
 		</div>
 
 		@foreach (var item in Model)
@@ -18,13 +18,13 @@
 					<h3 class="subtitle">@item.Description</h3>
 				</div>
 				<div class="counter">
-					<div class="btn">+</div>
+					<div><a asp-action="IncreaseProduct" asp-route-id="@item.Id" class="btn">+</a></div>
 					<div class="count">@item.Count</div>
-					<div class="btn">-</div>
+					<div><a asp-action="DecreaseProduct" asp-route-id="@item.Id" class="btn">-</a></div>
 				</div>
 				<div class="prices">
 					<div class="amount">@item.Price</div>
-					<div class="remove"><u>Remove</u></div>
+					<div class="remove"><u><a asp-action="Remove" asp-route-id="@item.Id" class="Action">Remove</a></u></div>
 				</div>
 			</div>
 		}
@@ -39,7 +39,7 @@
 				</div>
 				<div class="total-amount">$6.18</div>
 			</div>
-			<button class="button">Checkout</button>
+			<button asp-action="Order" class="button">Checkout</button>
 		</div>
 	</div>
 </div>
@@ -47,14 +47,14 @@
 <style>
 
 	.CartContainer {
-		width: 70%;
+		width: 100%;
 		height: 90%;
 		background-color: #ffffff;
 		border-radius: 20px;
 		box-shadow: 0px 10px 20px #1687d933;
 	}
 
-	.Header {
+	.CartContainer .Header {
 		margin: auto;
 		width: 90%;
 		height: 15%;
@@ -63,14 +63,14 @@
 		align-items: center;
 	}
 
-	.Heading {
+	.CartContainer .Heading {
 		font-size: 20px;
 		font-family: 'Open Sans';
 		font-weight: 700;
 		color: #2F3841;
 	}
 
-	.Action {
+	.CartContainer .Action {
 		font-size: 14px;
 		font-family: 'Open Sans';
 		font-weight: 600;
@@ -79,7 +79,7 @@
 		border-bottom: 1px solid #E44C4C;
 	}
 
-	.Cart-Items {
+	.CartContainer .Cart-Items {
 		margin: auto;
 		width: 90%;
 		height: 30%;
@@ -88,17 +88,17 @@
 		align-items: center;
 	}
 
-	.image-box {
+	 .CartContainer .image-box {
 		width: 15%;
 		text-align: center;
 	}
 
-	.about {
+	.CartContainer .about {
 		height: 100%;
 		width: 24%;
 	}
 
-	.title {
+	.CartContainer .title {
 		padding-top: 10px;
 		line-height: 10px;
 		font-size: 32px;
@@ -107,7 +107,7 @@
 		color: #202020;
 	}
 
-	.subtitle {
+	.CartContainer .subtitle {
 		line-height: 10px;
 		font-size: 18px;
 		font-family: 'Open Sans';
@@ -115,14 +115,14 @@
 		color: #909090;
 	}
 
-	.counter {
+	.CartContainer .counter {
 		width: 15%;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 	}
 
-	.btn {
+	.CartContainer .btn {
 		width: 40px;
 		height: 40px;
 		border-radius: 50%;
@@ -137,19 +137,19 @@
 		cursor: pointer;
 	}
 
-	.count {
+	.CartContainer .count {
 		font-size: 20px;
 		font-family: 'Open Sans';
 		font-weight: 600;
 		color: #202020;
 	}
 
-	.prices {
+	.CartContainer .prices {
 		height: 100%;
 		text-align: right;
 	}
 
-	.amount {
+	.CartContainer .amount {
 		padding-top: 20px;
 		font-size: 26px;
 		font-family: 'Open Sans';
@@ -157,7 +157,7 @@
 		color: #202020;
 	}
 
-	.save {
+	.CartContainer .save {
 		padding-top: 5px;
 		font-size: 14px;
 		font-family: 'Open Sans';
@@ -166,7 +166,7 @@
 		cursor: pointer;
 	}
 
-	.remove {
+	.CartContainer .remove {
 		padding-top: 5px;
 		font-size: 14px;
 		font-family: 'Open Sans';
@@ -175,36 +175,36 @@
 		cursor: pointer;
 	}
 
-	.pad {
+	.CartContainer .pad {
 		margin-top: 5px;
 	}
 
-	hr {
+	.CartContainer hr {
 		width: 66%;
 		float: right;
 		margin-right: 5%;
 	}
 
-	.checkout {
+	.CartContainer .checkout {
 		float: right;
 		margin-right: 5%;
 		width: 28%;
 	}
 
-	.total {
+	.CartContainer .total {
 		width: 100%;
 		display: flex;
 		justify-content: space-between;
 	}
 
-	.Subtotal {
+	.CartContainer .Subtotal {
 		font-size: 22px;
 		font-family: 'Open Sans';
 		font-weight: 700;
 		color: #202020;
 	}
 
-	.items {
+	.CartContainer .items {
 		font-size: 16px;
 		font-family: 'Open Sans';
 		font-weight: 500;
@@ -212,14 +212,14 @@
 		line-height: 10px;
 	}
 
-	.total-amount {
+	.CartContainer .total-amount {
 		font-size: 36px;
 		font-family: 'Open Sans';
 		font-weight: 900;
 		color: #202020;
 	}
 
-	.button {
+	.CartContainer .button {
 		margin-top: 10px;
 		width: 100%;
 		height: 40px;
@@ -232,4 +232,5 @@
 		font-weight: 600;
 		color: #202020;
 	}
+
 </style>

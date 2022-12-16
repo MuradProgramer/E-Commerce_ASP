@@ -3690,11 +3690,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aliy_ql08\\Desktop\\E-Commerce_ASP\\ECommerce\\ECommerce.csproj",
+      "projectUniqueName": "C:\\Users\\Aliy_ql08\\Desktop\\New folder\\E-Commerce_ASP\\ECommerce\\ECommerce.csproj",
       "projectName": "ECommerce",
-      "projectPath": "C:\\Users\\Aliy_ql08\\Desktop\\E-Commerce_ASP\\ECommerce\\ECommerce.csproj",
+      "projectPath": "C:\\Users\\Aliy_ql08\\Desktop\\New folder\\E-Commerce_ASP\\ECommerce\\ECommerce.csproj",
       "packagesPath": "C:\\Users\\Aliy_ql08\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aliy_ql08\\Desktop\\E-Commerce_ASP\\ECommerce\\obj\\",
+      "outputPath": "C:\\Users\\Aliy_ql08\\Desktop\\New folder\\E-Commerce_ASP\\ECommerce\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

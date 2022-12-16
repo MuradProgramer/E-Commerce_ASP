@@ -66,4 +66,86 @@ public class BasketController: Controller
 
         return Content("Success");
     }
+
+    [Route("IncreaseProduct")]
+    public IActionResult IncreaseProduct(int id)
+    {
+        var cookie = Request.Cookies["basket"];
+
+        if (cookie is not null)
+        {
+            var viewProducts = JsonSerializer.Deserialize<List<BasketProductViewModel>>(cookie);
+
+            var viewProduct = viewProducts.FirstOrDefault(viewModel => viewModel.Id == id);
+
+            if (viewProduct is not null)
+            {
+                viewProduct.Count++;
+
+                cookie = JsonSerializer.Serialize(viewProducts);
+
+                Response.Cookies.Append("Basket", cookie);
+            }
+        }
+
+        return RedirectToAction("Index");
+    }
+
+    [Route("DecreaseProduct")]
+    public IActionResult DecreaseProduct(int id)
+    {
+        var cookie = Request.Cookies["basket"];
+
+        if (cookie is not null)
+        {
+            var viewProducts = JsonSerializer.Deserialize<List<BasketProductViewModel>>(cookie);
+
+            var viewProduct = viewProducts.FirstOrDefault(viewModel => viewModel.Id == id);
+
+            if (viewProduct is not null)
+            {
+                if (viewProduct.Count > 0) viewProduct.Count--;
+
+                cookie = JsonSerializer.Serialize(viewProducts);
+
+                Response.Cookies.Append("Basket", cookie);
+            }
+        }
+
+        return RedirectToAction("Index");
+    }
+
+    [Route("Clear")]
+    public IActionResult Clear()
+    {
+        var cookie = Request.Cookies["basket"];
+
+        if (cookie is not null)
+        {
+            var viewProducts = new List<BasketProductViewModel>();
+            cookie = JsonSerializer.Serialize(viewProducts);
+            Response.Cookies.Append("Basket", cookie);
+        }
+
+        return RedirectToAction("Index");
+    }
+
+    [Route("Remove")]
+    public IActionResult Remove(int id)
+    {
+        var cookie = Request.Cookies["basket"];
+
+        if (cookie is not null)
+        {
+            var viewProducts = JsonSerializer.Deserialize<List<BasketProductViewModel>>(cookie);
+
+            viewProducts.RemoveAll(viewModel => viewModel.Id == id);
+
+            cookie = JsonSerializer.Serialize(viewProducts);
+
+            Response.Cookies.Append("Basket", cookie);
+        }
+        
+        return RedirectToAction("Index");
+    }
 }
