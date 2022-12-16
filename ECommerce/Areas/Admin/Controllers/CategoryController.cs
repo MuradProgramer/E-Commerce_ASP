@@ -59,6 +59,8 @@ public class CategoryController : Controller
     [Route("Search")]
     public async Task<IActionResult> Search(string pattern)
     {
+        if (pattern is null) return RedirectToAction("Index");
+
         var categories = await _dbContext.Categories.Where(c => c.Name.Contains(pattern)).Select(c => new CategoryViewModel(c.Id, c.ImageUrl) { Name = c.Name }).ToListAsync();
 
         return View(categories);

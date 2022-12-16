@@ -73,6 +73,8 @@ public class ProductController : Controller
     [Route("Search")]
     public async Task<IActionResult> Search(string pattern)
     {
+        if (pattern is null) return RedirectToAction("Index");
+
         var products = await _dbContext.Products.Include("Category").Where(p => p.Name.Contains(pattern))
             .Select(p => new ProductViewModel(p.Id, p.Category.Name, null) { Name = p.Name, Description = p.Description, Price = p.Price, ImageUrl = p.ImageUrl })
             .ToListAsync();

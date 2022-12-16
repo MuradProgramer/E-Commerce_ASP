@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anon - eCommerce Website</title>
 
-  <link rel="shortcut icon" href="~/images/logo/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="~/css/style-prefix.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +24,7 @@
       <div class="container">
 
         <a asp-controller="Home" asp-action="Index" class="header-logo">
-          <img src="~/images/logo/logo.svg" alt="Anon's logo" width="120" height="36">
+          <img src="~/images/logo.svg" alt="Anon's logo" width="120" height="36">
         </a>
 
         <div class="header-search-container">
@@ -38,7 +38,7 @@
 
         <div class="header-user-actions">
 
-          <a asp-controller="Admin" class="action-btn">
+          <a asp-area="Admin" class="action-btn">
             <ion-icon name="person-outline"></ion-icon>
           </a>
 

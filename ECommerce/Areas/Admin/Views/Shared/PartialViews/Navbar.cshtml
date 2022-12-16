@@ -1,4 +1,4 @@
-﻿<div class="header">
+<div class="header">
 	<div class="header-left">
 		<a asp-action="Index" asp-controller="Home" class="logo"> <img src="~/Admin/assets/img/hotel_logo.png" width="50" height="70" alt="logo"> <span class="logoclass">Admin</span> </a>
 		<a asp-action="Index" asp-controller="Home" class="logo logo-small"> <img src="~/Admin/assets/img/hotel_logo.png" alt="Logo" width="30" height="30"> </a>
@@ -24,7 +24,7 @@
 	</ul>
 	<div class="top-nav-search">
 		<form asp-action="Search" method="get">
-			<input type="search" class="form-control" placeholder="Search here">
+			<input type="search" name="pattern" class="form-control" placeholder="Search here">
 			<button class="btn" type="submit"><i class="fas fa-search"></i></button>
 		</form>
 	</div>
