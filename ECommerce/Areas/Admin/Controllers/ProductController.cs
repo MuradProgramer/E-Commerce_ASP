@@ -28,9 +28,11 @@ public class ProductController : Controller
     {
         var categories = await _dbContext.Categories.Select(c => new SelectListItem(c.Name, c.Id.ToString())).ToListAsync();
         var tags = await _dbContext.Tags.Select(t => new SelectListItem(t.Title, t.Id.ToString())).ToListAsync();
+
+        var multiselected = new MultiSelectList(tags, "Id", "Name");
         
         ViewData["Categories"] = categories;
-        ViewData["Tags"] = tags;
+        ViewData["Tags"] = multiselected;
 
         return View();
     }

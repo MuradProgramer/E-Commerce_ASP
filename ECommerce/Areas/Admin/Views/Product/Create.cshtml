@@ -5,7 +5,7 @@
 	var tags = ViewData["Tags"] as List<SelectListItem>;
 }
 
-<div class="container" style="text-align: center; margin-top: 100px;">
+@*<div class="container" style="text-align: center; margin-top: 100px;">
 	<form asp-controller="Product" asp-action="Create" enctype="multipart/form-data" method="post">
 		<input asp-for="Name" required placeholder="Product Name" /><br />
 		<input asp-for="Description" placeholder="Product Description" /><br />
@@ -15,29 +15,42 @@
 		<select asp-for="CategoryId" asp-items="categories"></select><br />
 		<input style="background: #EB1616;" type="submit" />
 	</form>
+</div>*@
+
+<link href="~/css/CreateCategoryProductStyle.css" rel="stylesheet">
+
+<div class="box" style="height:700px; margin-top: 30px;">
+    <div class="form">
+        <form asp-controller="Product" asp-action="Create" enctype="multipart/form-data" method="post">
+
+            <div class="input-box">
+                <input type="text" asp-for="Name" required="required"  />
+                <span class="custom-placeholder">Product Name</span>
+                <i></i>
+            </div>
+
+            <div class="input-box">
+                <input type="text" asp-for="Description" required="required"  />
+                <span class="custom-placeholder">Description</span>
+                <i></i>
+            </div>
+
+            <div class="input-box">
+                <input type="text" asp-for="Price" required="required"  />
+                <span class="custom-placeholder">Price</span>
+                <i></i>
+            </div>
+
+            <input type="file" asp-for="Image" style="margin-top: 50px;"/><br />
+
+            @*<select class="multi-select" asp-for="tagIds" asp-items="tags" multiple></select><br />*@
+
+            <select asp-for="tagIds" asp-items="tags" multiple search="true"></select><br />
+
+		    <select class="single-select" asp-for="CategoryId" asp-items="categories"></select><br />
+
+            <input type="submit" value="Add" style="margin-top: 40px;"/>
+        </form>
+    </div>
 </div>
-
-<style>
-	select {
-        background: transparent;
-        color: white;
-        margin-top: 20px;
-        border: 3px solid #EB1616;
-        border-radius: 5px;
-        font-size: 3rem;
-    }
-
-    select option { 
-        background: black; 
-        border: 3px solid #EB1616;
-    }
-
-    input {
-        background: transparent;
-        color: white;
-		margin-top: 20px;
-        border: 3px solid #EB1616;
-        border-radius: 10px;
-        font-size: 3rem;
-    }
-</style>
+<script src="~/css/multiselect-dropdown.js" ></script>
