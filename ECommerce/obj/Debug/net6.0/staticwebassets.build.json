@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Zy6vdbTZfaLjxWkS4AfYjNwSbhAhbdpBrX5e11bvJJQ=",
+  "Hash": "pp1zNCq1W8HViHKeJARh1hIJbDwTrtL+5luOawCHllI=",
   "Source": "ECommerce",
   "BasePath": "_content/ECommerce",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ECommerce\\wwwroot",
       "Source": "ECommerce",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\css\\bootstrap.min.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\css\\bootstrap-datetimepicker.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\css\\bootstrap-datetimepicker.min.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/css/bootstrap-datetimepicker.min.css",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\css\\bootstrap-datetimepicker.min.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\css\\feathericon.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\css\\feathericon.min.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/css/feathericon.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\css\\feathericon.min.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\css\\select2.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\css\\select2.min.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/css/select2.min.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\css\\select2.min.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\css\\style.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\css\\style.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/css/style.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\fonts\\feathericon.eot",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\fonts\\feathericon.eot",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/fonts/feathericon.eot",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\feathericon.eot"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\fonts\\feathericon.svg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\fonts\\feathericon.svg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/fonts/feathericon.svg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\feathericon.svg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\fonts\\feathericon.ttf",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\fonts\\feathericon.ttf",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/fonts/feathericon.ttf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\feathericon.ttf"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\fonts\\feathericon.woff",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\fonts\\feathericon.woff",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/fonts/feathericon.woff",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\feathericon.woff"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\fonts\\feathericon-1.eot",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\fonts\\feathericon-1.eot",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/fonts/feathericon-1.eot",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\feathericon-1.eot"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\fonts\\MaterialIcons-Regular.eot",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\fonts\\MaterialIcons-Regular.eot",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/fonts/MaterialIcons-Regular.eot",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\MaterialIcons-Regular.eot"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\fonts\\MaterialIcons-Regular.ttf",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\fonts\\MaterialIcons-Regular.ttf",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/fonts/MaterialIcons-Regular.ttf",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\MaterialIcons-Regular.ttf"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\fonts\\MaterialIcons-Regular.woff",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\fonts\\MaterialIcons-Regular.woff",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/fonts/MaterialIcons-Regular.woff",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\MaterialIcons-Regular.woff"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\fonts\\MaterialIcons-Regular.woff2",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\fonts\\MaterialIcons-Regular.woff2",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/fonts/MaterialIcons-Regular.woff2",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\MaterialIcons-Regular.woff2"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\favicon.png",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\favicon.png",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/favicon.png",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\hotel_logo.png",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\hotel_logo.png",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/hotel_logo.png",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\hotel_logo.png"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\logo.png",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\logo.png",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/logo.png",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\placeholder.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\placeholder.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/placeholder.jpg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\placeholder.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\product\\product-01.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\product\\product-01.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/product/product-01.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\product\\product-01.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\product\\product-02.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\product\\product-02.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/product/product-02.jpg",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\product\\product-02.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\product\\product-03.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\product\\product-03.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/product/product-03.jpg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\product\\product-03.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\product\\product-04.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\product\\product-04.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/product/product-04.jpg",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\product\\product-04.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\product\\product-05.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\product\\product-05.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/product/product-05.jpg",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\product\\product-05.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\product\\product-06.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\product\\product-06.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/product/product-06.jpg",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\product\\product-06.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\product\\product-07.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\product\\product-07.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/product/product-07.jpg",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\product\\product-07.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\product\\product-08.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\product\\product-08.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/product/product-08.jpg",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\product\\product-08.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-01.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-01.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/profiles/avatar-01.jpg",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\profiles\\avatar-01.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-02.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-02.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/profiles/avatar-02.jpg",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\profiles\\avatar-02.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-03.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-03.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/profiles/avatar-03.jpg",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\profiles\\avatar-03.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-04.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-04.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/profiles/avatar-04.jpg",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\profiles\\avatar-04.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-05.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-05.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/profiles/avatar-05.jpg",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\profiles\\avatar-05.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-06.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-06.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/profiles/avatar-06.jpg",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\profiles\\avatar-06.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-07.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-07.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/profiles/avatar-07.jpg",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\profiles\\avatar-07.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-08.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-08.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/profiles/avatar-08.jpg",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\profiles\\avatar-08.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-09.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-09.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/profiles/avatar-09.jpg",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\profiles\\avatar-09.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-10.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-10.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/profiles/avatar-10.jpg",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\profiles\\avatar-10.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-11.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-11.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/profiles/avatar-11.jpg",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\profiles\\avatar-11.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-12.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-12.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/profiles/avatar-12.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\profiles\\avatar-12.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-13.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-13.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/profiles/avatar-13.jpg",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\profiles\\avatar-13.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-15.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-15.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/profiles/avatar-15.jpg",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\profiles\\avatar-15.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-16.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-16.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/profiles/avatar-16.jpg",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\profiles\\avatar-16.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-17.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\profiles\\avatar-17.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/profiles/avatar-17.jpg",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\profiles\\avatar-17.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\sent.png",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\sent.png",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/sent.png",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\sent.png"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\img\\video-call.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\img\\video-call.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/img/video-call.jpg",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\img\\video-call.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\js\\bootstrap.min.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\js\\bootstrap-datetimepicker.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\js\\bootstrap-datetimepicker.min.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/js/bootstrap-datetimepicker.min.js",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\bootstrap-datetimepicker.min.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\js\\chart.morris.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\js\\chart.morris.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/js/chart.morris.js",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\chart.morris.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\js\\jquery-3.5.1.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\js\\jquery-3.5.1.min.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/js/jquery-3.5.1.min.js",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\jquery-3.5.1.min.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\js\\jquery-ui.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\js\\jquery-ui.min.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/js/jquery-ui.min.js",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\jquery-ui.min.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\js\\moment.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\js\\moment.min.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/js/moment.min.js",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\moment.min.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\js\\popper.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\js\\popper.min.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/js/popper.min.js",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\popper.min.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\js\\script.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\js\\script.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/js/script.js",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\script.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\js\\select2.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\js\\select2.min.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/js/select2.min.js",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\select2.min.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\datatables\\datatables.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\datatables\\datatables.min.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/datatables/datatables.min.css",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\datatables\\datatables.min.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\datatables\\datatables.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\datatables\\datatables.min.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/datatables/datatables.min.js",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\datatables\\datatables.min.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\datatables\\jquery.dataTables.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\datatables\\jquery.dataTables.min.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/datatables/jquery.dataTables.min.js",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\datatables\\jquery.dataTables.min.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\css\\all.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\css\\all.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fontawesome/css/all.css",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fontawesome\\css\\all.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\css\\all.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\css\\all.min.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fontawesome/css/all.min.css",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fontawesome\\css\\all.min.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\css\\fontawesome.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\css\\fontawesome.min.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fontawesome/css/fontawesome.min.css",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fontawesome\\css\\fontawesome.min.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.eot",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.eot",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fontawesome/webfonts/fa-brands-400.eot",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.eot"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.svg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.svg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fontawesome/webfonts/fa-brands-400.svg",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.svg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.ttf",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.ttf",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fontawesome/webfonts/fa-brands-400.ttf",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.woff",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.woff",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fontawesome/webfonts/fa-brands-400.woff",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.woff"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.woff2",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.woff2",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fontawesome/webfonts/fa-brands-400.woff2",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400-1.eot",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400-1.eot",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fontawesome/webfonts/fa-brands-400-1.eot",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400-1.eot"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.eot",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.eot",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fontawesome/webfonts/fa-regular-400.eot",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.eot"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.svg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.svg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fontawesome/webfonts/fa-regular-400.svg",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.svg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.ttf",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.ttf",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fontawesome/webfonts/fa-regular-400.ttf",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.woff",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.woff",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fontawesome/webfonts/fa-regular-400.woff",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.woff"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.woff2",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.woff2",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fontawesome/webfonts/fa-regular-400.woff2",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400-1.eot",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400-1.eot",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fontawesome/webfonts/fa-regular-400-1.eot",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400-1.eot"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.eot",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.eot",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fontawesome/webfonts/fa-solid-900.eot",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.eot"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.svg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.svg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fontawesome/webfonts/fa-solid-900.svg",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.svg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.ttf",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.ttf",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fontawesome/webfonts/fa-solid-900.ttf",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.woff",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.woff",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fontawesome/webfonts/fa-solid-900.woff",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.woff"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.woff2",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.woff2",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fontawesome/webfonts/fa-solid-900.woff2",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900-1.eot",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900-1.eot",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fontawesome/webfonts/fa-solid-900-1.eot",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900-1.eot"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fullcalendar\\fullcalendar.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fullcalendar\\fullcalendar.min.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fullcalendar/fullcalendar.min.css",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fullcalendar\\fullcalendar.min.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fullcalendar\\fullcalendar.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fullcalendar\\fullcalendar.min.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fullcalendar/fullcalendar.min.js",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fullcalendar\\fullcalendar.min.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fullcalendar\\jquery.fullcalendar.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\fullcalendar\\jquery.fullcalendar.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/fullcalendar/jquery.fullcalendar.js",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\fullcalendar\\jquery.fullcalendar.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\morris\\morris.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\morris\\morris.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/morris/morris.css",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\morris\\morris.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\morris\\morris.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\morris\\morris.min.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/morris/morris.min.js",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\morris\\morris.min.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\raphael\\raphael.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\raphael\\raphael.min.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/raphael/raphael.min.js",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\raphael\\raphael.min.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\slimscroll\\jquery.slimscroll.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\slimscroll\\jquery.slimscroll.min.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/slimscroll/jquery.slimscroll.min.js",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\slimscroll\\jquery.slimscroll.min.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\summernote\\dist\\font\\summernote.eot",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\summernote\\dist\\font\\summernote.eot",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/summernote/dist/font/summernote.eot",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\summernote\\dist\\font\\summernote.eot"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\summernote\\dist\\font\\summernote.ttf",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\summernote\\dist\\font\\summernote.ttf",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/summernote/dist/font/summernote.ttf",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\summernote\\dist\\font\\summernote.ttf"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\summernote\\dist\\font\\summernote.woff",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\summernote\\dist\\font\\summernote.woff",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/summernote/dist/font/summernote.woff",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\summernote\\dist\\font\\summernote.woff"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\summernote\\dist\\font\\summernote.woff2",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\summernote\\dist\\font\\summernote.woff2",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/summernote/dist/font/summernote.woff2",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\summernote\\dist\\font\\summernote.woff2"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\summernote\\dist\\font\\summernote-1.eot",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\summernote\\dist\\font\\summernote-1.eot",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/summernote/dist/font/summernote-1.eot",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\summernote\\dist\\font\\summernote-1.eot"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\summernote\\dist\\summernote-bs4.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\summernote\\dist\\summernote-bs4.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/summernote/dist/summernote-bs4.css",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\summernote\\dist\\summernote-bs4.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\summernote\\dist\\summernote-bs4.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\assets\\plugins\\summernote\\dist\\summernote-bs4.min.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/assets/plugins/summernote/dist/summernote-bs4.min.js",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\plugins\\summernote\\dist\\summernote-bs4.min.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\img\\testimonial-1.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\img\\testimonial-1.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/img/testimonial-1.jpg",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\testimonial-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\img\\testimonial-2.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\img\\testimonial-2.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/img/testimonial-2.jpg",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\testimonial-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\Admin\\img\\user.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\Admin\\img\\user.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "Admin/img/user.jpg",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\user.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\css\\CreateCategoryProductStyle.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\css\\CreateCategoryProductStyle.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "css/CreateCategoryProductStyle.css",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\css\\CreateCategoryProductStyle.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\css\\LogRegStyle.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\css\\LogRegStyle.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "css/LogRegStyle.css",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\css\\LogRegStyle.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\css\\style.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\css\\style-prefix.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\css\\style-prefix.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "css/style-prefix.css",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style-prefix.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\favicon.ico",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\banner-1.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\banner-1.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/banner-1.jpg",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banner-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\banner-2.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\banner-2.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/banner-2.jpg",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banner-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\banner-3.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\banner-3.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/banner-3.jpg",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banner-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\blog-1.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\blog-1.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/blog-1.jpg",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\blog-2.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\blog-2.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/blog-2.jpg",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\blog-3.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\blog-3.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/blog-3.jpg",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\blog-4.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\blog-4.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/blog-4.jpg",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\images\\blog-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\cta-banner.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\cta-banner.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/cta-banner.jpg",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cta-banner.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\icons\\bag.svg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\icons\\bag.svg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/icons/bag.svg",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\bag.svg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\icons\\coat.svg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\icons\\coat.svg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/icons/coat.svg",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\coat.svg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\icons\\cosmetics.svg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\icons\\cosmetics.svg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/icons/cosmetics.svg",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\cosmetics.svg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\icons\\dress.svg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\icons\\dress.svg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/icons/dress.svg",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\dress.svg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\icons\\glasses.svg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\icons\\glasses.svg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/icons/glasses.svg",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\glasses.svg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\icons\\hat.svg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\icons\\hat.svg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/icons/hat.svg",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\hat.svg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\icons\\jacket.svg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\icons\\jacket.svg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/icons/jacket.svg",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\jacket.svg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\icons\\jewelry.svg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\icons\\jewelry.svg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/icons/jewelry.svg",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\jewelry.svg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\icons\\perfume.svg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\icons\\perfume.svg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/icons/perfume.svg",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\perfume.svg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\icons\\quotes.svg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\icons\\quotes.svg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/icons/quotes.svg",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\quotes.svg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\icons\\shoes.svg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\icons\\shoes.svg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/icons/shoes.svg",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\shoes.svg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\icons\\shorts.svg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\icons\\shorts.svg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/icons/shorts.svg",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\shorts.svg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\icons\\tee.svg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\icons\\tee.svg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/icons/tee.svg",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\tee.svg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\icons\\watch.svg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\icons\\watch.svg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/icons/watch.svg",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\watch.svg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\logo.svg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\logo.svg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/logo.svg",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.svg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\payment.png",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\payment.png",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/payment.png",
       "AssetKind": "All",
@@ -2108,10 +2108,27 @@
       "OriginalItemSpec": "wwwroot\\images\\payment.png"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\products\\b6b5e344-c9e7-46e1-a0f3-48effd628e7a.png",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\products\\44a55cf3-ffd9-4416-a49a-d112d708b307.png",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "images/products/44a55cf3-ffd9-4416-a49a-d112d708b307.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\44a55cf3-ffd9-4416-a49a-d112d708b307.png"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\products\\b6b5e344-c9e7-46e1-a0f3-48effd628e7a.png",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/products/b6b5e344-c9e7-46e1-a0f3-48effd628e7a.png",
       "AssetKind": "All",
@@ -2125,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\b6b5e344-c9e7-46e1-a0f3-48effd628e7a.png"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\products\\jacket-1.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\products\\jacket-1.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/products/jacket-1.jpg",
       "AssetKind": "All",
@@ -2142,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\jacket-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\products\\jacket-2.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\products\\jacket-2.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/products/jacket-2.jpg",
       "AssetKind": "All",
@@ -2159,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\jacket-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\products\\shirt-1.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\products\\shirt-1.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/products/shirt-1.jpg",
       "AssetKind": "All",
@@ -2176,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\shirt-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\products\\shoe-1.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\products\\shoe-1.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/products/shoe-1.jpg",
       "AssetKind": "All",
@@ -2193,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\shoe-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\products\\shoe-2.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\products\\shoe-2.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/products/shoe-2.jpg",
       "AssetKind": "All",
@@ -2210,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\shoe-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\products\\watch-1.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\products\\watch-1.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/products/watch-1.jpg",
       "AssetKind": "All",
@@ -2227,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\watch-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\products\\watch-3.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\products\\watch-3.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/products/watch-3.jpg",
       "AssetKind": "All",
@@ -2244,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\watch-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\images\\testimonial-1.jpg",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\images\\testimonial-1.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "images/testimonial-1.jpg",
       "AssetKind": "All",
@@ -2261,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\images\\testimonial-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\js\\multiselect-dropdown.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\js\\multiselect-dropdown.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "js/multiselect-dropdown.js",
       "AssetKind": "All",
@@ -2278,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\js\\multiselect-dropdown.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\js\\script.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\js\\script.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "js/script.js",
       "AssetKind": "All",
@@ -2295,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\js\\script.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2312,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2329,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2346,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2363,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2380,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2397,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2414,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2431,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2448,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2465,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2482,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2499,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2516,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2533,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2550,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2567,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2584,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2601,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2618,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2635,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2652,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2669,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2686,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2703,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2720,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2737,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2754,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2771,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2788,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2805,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2822,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2839,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2856,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2873,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2890,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2907,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2924,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2941,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2958,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2975,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2992,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -3009,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3026,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -3043,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -3060,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -3077,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -3094,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -3111,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -3128,10 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3145,10 +3162,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -3162,10 +3179,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3179,10 +3196,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3196,10 +3213,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3213,10 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3230,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3247,10 +3264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hp\\Desktop\\endproj\\ECommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\E-Commerce_ASP\\ECommerce\\wwwroot\\",
       "BasePath": "_content/ECommerce",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

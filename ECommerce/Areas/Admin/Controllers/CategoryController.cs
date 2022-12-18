@@ -1,7 +1,7 @@
 ﻿namespace ECommerce.Areas.Admin.Controllers;
 
 [Area("Admin"), Route("Admin/Category")]
-[Authorize]
+[Authorize(Roles = "Administrator")]
 public class CategoryController : Controller
 {
     private AppDbContext _dbContext;

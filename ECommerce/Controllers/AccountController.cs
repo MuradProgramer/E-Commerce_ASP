@@ -1,6 +1,4 @@
-﻿using ECommerce.Models.Identity;
-
-namespace ECommerce.Areas.Admin.Controllers;
+﻿namespace ECommerce.Areas.Admin.Controllers;
 
 [Route("Account")]
 public class AccountController : Controller
@@ -27,8 +25,11 @@ public class AccountController : Controller
             var user = new AppUser
             {
                 UserName = string.Format("{0} {1}", model.Name, model.Surname),
+                FirstName = model.Name,
+                LastName = model.Surname,
                 Email = model.Email
             };
+
 
             var userCheck = await _userManager.FindByEmailAsync(model.Email);
             var result = await _userManager.CreateAsync(user, model.Password);

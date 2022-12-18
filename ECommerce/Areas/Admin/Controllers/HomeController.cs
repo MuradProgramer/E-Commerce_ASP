@@ -1,7 +1,7 @@
 ﻿namespace ECommerce.Areas.Admin.Controllers;
 
 [Area("Admin"), Route("Admin")]
-[Authorize]
+[Authorize(Roles = "Administrator")]
 public class HomeController : Controller
 {
     public IActionResult Index() => View();
