@@ -20,6 +20,9 @@ public class AppDbContext : IdentityDbContext
         modelBuilder.ApplyConfiguration(new CategoryConfiguration());
         modelBuilder.ApplyConfiguration(new TagConfiguration());
         modelBuilder.ApplyConfiguration(new ProductTagConfiguration());
+        modelBuilder.ApplyConfiguration(new AdminConfiguration());
+        modelBuilder.ApplyConfiguration(new IdentityRoleConfiguration());
+        modelBuilder.ApplyConfiguration(new UsersWithRolesConfiguration());
 
         base.OnModelCreating(modelBuilder);
     }
