@@ -14,6 +14,7 @@ public class Product : Entity
     public virtual Category? Category { get; set; }
 
     public virtual ICollection<ProductTag> ProductTags { get; set; }
+    public virtual ICollection<ProductOrder> ProductOrders { get; set; }
 
 
     public Product() { }

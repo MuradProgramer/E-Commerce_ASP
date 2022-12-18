@@ -37,7 +37,7 @@ public class AccountController : Controller
             {
                 await _userManager.AddToRoleAsync(user, "Client");
                 await _signInManager.SignInAsync(user, true);
-                return RedirectToAction("Index", "Home", new { area="Admin" });
+                return RedirectToAction("Index", "Home");
             }
             else
             {

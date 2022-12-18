@@ -75,6 +75,26 @@ namespace ECommerce.Migrations
                         });
                 });
 
+            modelBuilder.Entity("ECommerce.Models.Concrete.Order", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CustomerName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Time")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Orders");
+                });
+
             modelBuilder.Entity("ECommerce.Models.Concrete.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -171,6 +191,24 @@ namespace ECommerce.Migrations
                             Name = "Formal Shoes",
                             Price = 50.0
                         });
+                });
+
+            modelBuilder.Entity("ECommerce.Models.Concrete.ProductOrder", b =>
+                {
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.HasKey("ProductId", "OrderId");
+
+                    b.HasIndex("OrderId");
+
+                    b.ToTable("ProductOrders");
                 });
 
             modelBuilder.Entity("ECommerce.Models.Concrete.ProductTag", b =>
@@ -279,14 +317,14 @@ namespace ECommerce.Migrations
                         new
                         {
                             Id = "2301D884-221A-4E7D-B509-0113DCC043E1",
-                            ConcurrencyStamp = "0079eab3-e247-4eb9-a21c-f54ce78ef6e5",
+                            ConcurrencyStamp = "266affb2-2d86-4ce2-b508-0929252af31e",
                             Name = "Administrator",
                             NormalizedName = "ADMINISTRATOR"
                         },
                         new
                         {
                             Id = "80a48861-ef5d-4d3d-861f-7566e59b7b82",
-                            ConcurrencyStamp = "5b27cc63-0ca1-40c0-9694-1e7c56329c97",
+                            ConcurrencyStamp = "f1ba6286-a634-46c3-91a7-cf751de57851",
                             Name = "Client",
                             NormalizedName = "CLIENT"
                         });
@@ -497,13 +535,13 @@ namespace ECommerce.Migrations
                         {
                             Id = "B22698B8-42A2-4115-9631-1C2D1E2AC5F7",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "de74d9ff-8eed-40ed-887a-fa96c2c3a863",
+                            ConcurrencyStamp = "c13de162-6a4a-4b08-a245-6e675e4e97d0",
                             Email = "admin@admin.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@ADMIN.COM",
                             NormalizedUserName = "MASTERADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEA4g6UekcghKrQvfbfkgEDj0reJ4bNtkSlg21IaSC/TBx6ZeCT7M6KDb5Eg6hp+LEA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJe8FZTH3tH7J1i2ZTg2jm+pbpisu5wLWY789Lft1YdTZKRhlYt4Fpcs0n2bvtrg+A==",
                             PhoneNumber = "XXXXXXXXXXXXX",
                             PhoneNumberConfirmed = true,
                             SecurityStamp = "00000000-0000-0000-0000-000000000000",
@@ -522,6 +560,25 @@ namespace ECommerce.Migrations
                         .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("ECommerce.Models.Concrete.ProductOrder", b =>
+                {
+                    b.HasOne("ECommerce.Models.Concrete.Order", "Order")
+                        .WithMany("ProductOrders")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ECommerce.Models.Concrete.Product", "Product")
+                        .WithMany("ProductOrders")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Order");
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("ECommerce.Models.Concrete.ProductTag", b =>
@@ -599,8 +656,15 @@ namespace ECommerce.Migrations
                     b.Navigation("Products");
                 });
 
+            modelBuilder.Entity("ECommerce.Models.Concrete.Order", b =>
+                {
+                    b.Navigation("ProductOrders");
+                });
+
             modelBuilder.Entity("ECommerce.Models.Concrete.Product", b =>
                 {
+                    b.Navigation("ProductOrders");
+
                     b.Navigation("ProductTags");
                 });
 

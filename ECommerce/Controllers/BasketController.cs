@@ -1,7 +1,7 @@
 ﻿namespace ECommerce.Controllers;
 
 [Route("Basket")]
-public class BasketController: Controller
+public class BasketController : Controller
 {
     private readonly AppDbContext _dbContext;
 
@@ -38,31 +38,38 @@ public class BasketController: Controller
 
             viewProducts.Add(viewProduct);
         }
-        
+
         Response.Cookies.Append("basket", JsonSerializer.Serialize(viewProducts));
 
         return string.IsNullOrEmpty(returnUrl) ? RedirectToAction("Index", "Product") : Redirect(returnUrl);
     }
 
     [Route("Order"), Authorize(Roles = "Client")]
-    public IActionResult Order()
-    {
-        var cookie = Request.Cookies["basket"];
-
-        var viewProducts = cookie is null ? new List<BasketProductViewModel>() : JsonSerializer.Deserialize<List<BasketProductViewModel>>(cookie);
-
-        if (viewProducts.Count == 0) return Content("Get product aldala!");
-
-        return View();
-    }
-
-    [HttpPost, Route("Order"), Authorize(Roles = "Client")]
-    public IActionResult Order(OrderViewModel viewModel)
+    public async Task<IActionResult> Order()
     {
         var viewProducts = JsonSerializer.Deserialize<List<BasketProductViewModel>>(Request.Cookies["basket"]);
 
-        viewModel.Time = DateTime.Now;
-        viewModel.Products = viewProducts;
+        if (viewProducts.Count == 0) return RedirectToAction("Index", "Product");
+
+        var order = new Order()
+        {
+            Time = DateTime.Now,
+            CustomerName = User.Identity.Name,
+        };
+
+        await _dbContext.AddAsync(order);
+        await _dbContext.SaveChangesAsync();
+
+        foreach (var viewProduct in viewProducts)
+        {
+            var productOrder = new ProductOrder(viewProduct.Id, order.Id, viewProduct.Count);
+
+            _dbContext.Add(productOrder);
+        }
+
+        await _dbContext.SaveChangesAsync();
+
+        Response.Cookies.Delete("basket");
 
         return Content("Success");
     }
@@ -84,7 +91,7 @@ public class BasketController: Controller
 
                 cookie = JsonSerializer.Serialize(viewProducts);
 
-                Response.Cookies.Append("Basket", cookie);
+                Response.Cookies.Append("basket", cookie);
             }
         }
 
@@ -108,7 +115,7 @@ public class BasketController: Controller
 
                 cookie = JsonSerializer.Serialize(viewProducts);
 
-                Response.Cookies.Append("Basket", cookie);
+                Response.Cookies.Append("basket", cookie);
             }
         }
 
@@ -118,14 +125,7 @@ public class BasketController: Controller
     [Route("Clear")]
     public IActionResult Clear()
     {
-        var cookie = Request.Cookies["basket"];
-
-        if (cookie is not null)
-        {
-            var viewProducts = new List<BasketProductViewModel>();
-            cookie = JsonSerializer.Serialize(viewProducts);
-            Response.Cookies.Append("Basket", cookie);
-        }
+        Response.Cookies.Delete("basket");
 
         return RedirectToAction("Index");
     }
@@ -143,9 +143,9 @@ public class BasketController: Controller
 
             cookie = JsonSerializer.Serialize(viewProducts);
 
-            Response.Cookies.Append("Basket", cookie);
+            Response.Cookies.Append("basket", cookie);
         }
-        
+
         return RedirectToAction("Index");
     }
 }
