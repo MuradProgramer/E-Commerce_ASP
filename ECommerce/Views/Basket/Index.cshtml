@@ -1,0 +1,236 @@
+﻿@model List<BasketProductViewModel>
+
+<div class="container">
+	<div class="CartContainer">
+		<div class="Header">
+			<h3 class="Heading">Shopping Cart</h3>
+			<h5><a asp-action="Clear" class="Action">Remove all</a></h5>
+		</div>
+
+		@foreach (var item in Model)
+		{
+			<div class="Cart-Items">
+				<div class="image-box">
+					<img src="~/images/products/@item.ImageUrl" style={{ height="120px" }} />
+				</div>
+				<div class="about">
+					<h1 class="title">@item.Name</h1>
+					<h3 class="subtitle">@item.Description</h3>
+				</div>
+				<div class="counter">
+					<div><a asp-action="IncreaseProduct" asp-route-id="@item.Id" class="btn">+</a></div>
+					<div class="count">@item.Count</div>
+					<div><a asp-action="DecreaseProduct" asp-route-id="@item.Id" class="btn">-</a></div>
+				</div>
+				<div class="prices">
+					<div class="amount">@item.Price</div>
+					<div class="remove"><u><a asp-action="Remove" asp-route-id="@item.Id" class="Action">Remove</a></u></div>
+				</div>
+			</div>
+		}
+
+		<hr>
+
+		<div class="checkout">
+			<div class="total">
+				<div>
+					<div class="Subtotal">Sub-Total</div>
+					<div class="items">2 items</div>
+				</div>
+				<div class="total-amount">$6.18</div>
+			</div>
+			<a asp-action="Order" class="button">Checkout</a>
+		</div>
+	</div>
+</div>
+
+<style>
+
+	.CartContainer {
+		width: 100%;
+		height: 90%;
+		background-color: #ffffff;
+		border-radius: 20px;
+		box-shadow: 0px 10px 20px #1687d933;
+	}
+
+	.CartContainer .Header {
+		margin: auto;
+		width: 90%;
+		height: 15%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.CartContainer .Heading {
+		font-size: 20px;
+		font-family: 'Open Sans';
+		font-weight: 700;
+		color: #2F3841;
+	}
+
+	.CartContainer .Action {
+		font-size: 14px;
+		font-family: 'Open Sans';
+		font-weight: 600;
+		color: #E44C4C;
+		cursor: pointer;
+		border-bottom: 1px solid #E44C4C;
+	}
+
+	.CartContainer .Cart-Items {
+		margin: auto;
+		width: 90%;
+		height: 30%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	 .CartContainer .image-box {
+		width: 15%;
+		text-align: center;
+	}
+
+	.CartContainer .about {
+		height: 100%;
+		width: 24%;
+	}
+
+	.CartContainer .title {
+		padding-top: 10px;
+		line-height: 10px;
+		font-size: 32px;
+		font-family: 'Open Sans';
+		font-weight: 800;
+		color: #202020;
+	}
+
+	.CartContainer .subtitle {
+		line-height: 10px;
+		font-size: 18px;
+		font-family: 'Open Sans';
+		font-weight: 600;
+		color: #909090;
+	}
+
+	.CartContainer .counter {
+		width: 15%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.CartContainer .btn {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background-color: #d9d9d9;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 20px;
+		font-family: 'Open Sans';
+		font-weight: 900;
+		color: #202020;
+		cursor: pointer;
+	}
+
+	.CartContainer .count {
+		font-size: 20px;
+		font-family: 'Open Sans';
+		font-weight: 600;
+		color: #202020;
+	}
+
+	.CartContainer .prices {
+		height: 100%;
+		text-align: right;
+	}
+
+	.CartContainer .amount {
+		padding-top: 20px;
+		font-size: 26px;
+		font-family: 'Open Sans';
+		font-weight: 800;
+		color: #202020;
+	}
+
+	.CartContainer .save {
+		padding-top: 5px;
+		font-size: 14px;
+		font-family: 'Open Sans';
+		font-weight: 600;
+		color: #1687d9;
+		cursor: pointer;
+	}
+
+	.CartContainer .remove {
+		padding-top: 5px;
+		font-size: 14px;
+		font-family: 'Open Sans';
+		font-weight: 600;
+		color: #E44C4C;
+		cursor: pointer;
+	}
+
+	.CartContainer .pad {
+		margin-top: 5px;
+	}
+
+	.CartContainer hr {
+		width: 66%;
+		float: right;
+		margin-right: 5%;
+	}
+
+	.CartContainer .checkout {
+		float: right;
+		margin-right: 5%;
+		width: 28%;
+	}
+
+	.CartContainer .total {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.CartContainer .Subtotal {
+		font-size: 22px;
+		font-family: 'Open Sans';
+		font-weight: 700;
+		color: #202020;
+	}
+
+	.CartContainer .items {
+		font-size: 16px;
+		font-family: 'Open Sans';
+		font-weight: 500;
+		color: #909090;
+		line-height: 10px;
+	}
+
+	.CartContainer .total-amount {
+		font-size: 36px;
+		font-family: 'Open Sans';
+		font-weight: 900;
+		color: #202020;
+	}
+
+	.CartContainer .button {
+		margin-top: 10px;
+		width: 100%;
+		height: 40px;
+		border: none;
+		background: linear-gradient(to bottom right, #B8D7FF, #8EB7EB);
+		border-radius: 20px;
+		cursor: pointer;
+		font-size: 16px;
+		font-family: 'Open Sans';
+		font-weight: 600;
+		color: #202020;
+	}
+
+</style>

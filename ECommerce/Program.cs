@@ -5,6 +5,9 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(buil
 builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 {
     options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+
+    options.Password.RequireUppercase = false;
+    options.Password.RequireNonAlphanumeric = false;
 })
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
