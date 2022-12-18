@@ -23,7 +23,7 @@ public class BasketController: Controller
     }
 
     [Route("AddProduct")]
-    public IActionResult AddProduct(int id)
+    public IActionResult AddProduct(int id, string? returnUrl)
     {
         var cookie = Request.Cookies["basket"];
 
@@ -41,7 +41,7 @@ public class BasketController: Controller
         
         Response.Cookies.Append("basket", JsonSerializer.Serialize(viewProducts));
 
-        return RedirectToAction("Index", "Product");
+        return string.IsNullOrEmpty(returnUrl) ? RedirectToAction("Index", "Product") : Redirect(returnUrl);
     }
 
     [Route("Order"), Authorize(Roles = "Client")]

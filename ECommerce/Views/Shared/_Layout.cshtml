@@ -40,16 +40,7 @@
 
                     @await Component.InvokeAsync("Basket")
 
-                    @if (User.Identity.IsAuthenticated) {
-                        <a asp-controller="Account" asp-action="Logout" class="action-btn">
-                            <ion-icon name="exit-outline"></ion-icon>
-                        </a>
-                    }
-                    else {
-                        <a asp-controller="Account" asp-action="Login" class="action-btn">
-                            <ion-icon name="person-outline"></ion-icon>
-                        </a>
-                    }
+                    @await Component.InvokeAsync("Auth");
 
                 </div>
 

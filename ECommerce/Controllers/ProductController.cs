@@ -24,8 +24,10 @@ public class ProductController : Controller
 
         ViewData["Products"] = products;
         ViewData["Categories"] = categories;
-        ViewBag.CurrentCategory = 0;
 
+        ViewBag.ReturnUrl = $"{Request.Path}{Request.QueryString}";
+        ViewBag.CurrentCategory = 0;
+        
         return View(tags);
     }
 
@@ -41,6 +43,8 @@ public class ProductController : Controller
 
         ViewData["Products"] = products;
         ViewData["Categories"] = categories;
+
+        ViewBag.ReturnUrl = $"{Request.Path}{Request.QueryString}";
         ViewBag.CurrentCategory = 0;
 
         return View("Index", tags);
@@ -60,6 +64,8 @@ public class ProductController : Controller
 
         ViewData["Products"] = products;
         ViewData["Categories"] = categories;
+
+        ViewBag.ReturnUrl = $"{Request.Path}{Request.QueryString}";
         ViewBag.CurrentCategory = categoryId;
 
         return View("Index", tags);
@@ -122,6 +128,8 @@ public class ProductController : Controller
 
         ViewData["Products"] = products;
         ViewData["Categories"] = categories;
+
+        ViewBag.ReturnUrl = $"{Request.Path}{Request.QueryString}";
         ViewBag.CurrentCategory = categoryId;
 
         return View("Index", tags);
