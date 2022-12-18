@@ -88,6 +88,7 @@ public class AccountController : Controller
     [Route("Logout")]
     public async Task<IActionResult> Logout()
     {
+        Console.WriteLine("muravyed");
         await _signInManager.SignOutAsync();
         return RedirectToAction("Index", "Home");
     }
