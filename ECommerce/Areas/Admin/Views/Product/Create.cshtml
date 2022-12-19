@@ -5,21 +5,9 @@
 	var tags = ViewData["Tags"] as List<SelectListItem>;
 }
 
-@*<div class="container" style="text-align: center; margin-top: 100px;">
-	<form asp-controller="Product" asp-action="Create" enctype="multipart/form-data" method="post">
-		<input asp-for="Name" required placeholder="Product Name" /><br />
-		<input asp-for="Description" placeholder="Product Description" /><br />
-		<input asp-for="Price" required placeholder="Product Price" /><br />
-        <input type="file" asp-for="Image"/>
-        <select asp-for="tagIds" asp-items="tags" multiple></select>
-		<select asp-for="CategoryId" asp-items="categories"></select><br />
-		<input style="background: #EB1616;" type="submit" />
-	</form>
-</div>*@
-
 <link href="~/css/CreateCategoryProductStyle.css" rel="stylesheet">
 
-<div class="box" style="height:700px; margin-top: 30px;">
+<div class="box" style="height:800px; margin-top: 30px;">
     <div class="form">
         <form asp-controller="Product" asp-action="Create" enctype="multipart/form-data" method="post">
 
@@ -42,12 +30,12 @@
             </div>
 
             <input type="file" asp-for="Image" style="margin-top: 50px;"/><br />
+            <span asp-validation-for="Image" class="text-danger"></span>
 
-            @*<select class="multi-select" asp-for="tagIds" asp-items="tags" multiple></select><br />*@
-
-            <select asp-for="tagIds" asp-items="tags" multiple search="true"></select><br />
+            <select asp-for="tagIds" asp-items="tags" multiple search="true" style="margin-top: 20px; display: block;"></select><br />
 
 		    <select class="single-select" asp-for="CategoryId" asp-items="categories"></select><br />
+            <span asp-validation-for="CategoryId" class="text-danger"></span>
 
             <input type="submit" value="Add" style="margin-top: 40px;"/>
         </form>

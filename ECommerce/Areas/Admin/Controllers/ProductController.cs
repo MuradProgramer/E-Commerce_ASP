@@ -32,7 +32,7 @@ public class ProductController : Controller
         var multiselected = new MultiSelectList(tags, "Id", "Name");
         
         ViewData["Categories"] = categories;
-        ViewData["Tags"] = multiselected;
+        ViewData["Tags"] = tags;
 
         return View();
     }
@@ -51,6 +51,8 @@ public class ProductController : Controller
     [Route("Create"), HttpPost]
     public async Task<IActionResult> Create(CreateProductViewModel viewModel)
     {
+        if (!ModelState.IsValid) return View();
+
         var product = TypeConverter.Convert<Product, CreateProductViewModel>(viewModel);
 
         var path = $"{Guid.NewGuid()}{Path.GetExtension(viewModel.Image.FileName)}";

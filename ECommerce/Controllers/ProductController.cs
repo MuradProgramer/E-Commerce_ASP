@@ -34,6 +34,8 @@ public class ProductController : Controller
     [Route("Search")]
     public async Task<IActionResult> Search(string pattern)
     {
+        pattern = pattern.ToUpper();
+
         var products = await _dbContext.Products.Include("Category").Where(p => p.Name.Contains(pattern))
             .Select(p => new ProductViewModel(p.Id, p.Category.Name, p.ImageUrl) { Name = p.Name, Description = p.Description, Price = p.Price })
             .ToListAsync();

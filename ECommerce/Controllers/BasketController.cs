@@ -122,14 +122,6 @@ public class BasketController : Controller
         return RedirectToAction("Index");
     }
 
-    [Route("Clear")]
-    public IActionResult Clear()
-    {
-        Response.Cookies.Delete("basket");
-
-        return RedirectToAction("Index");
-    }
-
     [Route("Remove")]
     public IActionResult Remove(int id)
     {
@@ -147,5 +139,19 @@ public class BasketController : Controller
         }
 
         return RedirectToAction("Index");
+    }
+
+    [Route("Search")]
+    public IActionResult Search(string pattern)
+    {
+        pattern = pattern.ToUpper();
+
+        var cookie = Request.Cookies["basket"];
+
+        var viewProducts = cookie is null ? new List<BasketProductViewModel>() : JsonSerializer.Deserialize<List<BasketProductViewModel>>(cookie);
+
+        viewProducts.RemoveAll(viewProduct => !viewProduct.Name.Contains(pattern));
+
+        return View("Index", viewProducts);
     }
 }

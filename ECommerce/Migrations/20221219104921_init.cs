@@ -62,7 +62,7 @@ namespace ECommerce.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -279,14 +279,14 @@ namespace ECommerce.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "2301D884-221A-4E7D-B509-0113DCC043E1", "266affb2-2d86-4ce2-b508-0929252af31e", "Administrator", "ADMINISTRATOR" },
-                    { "80a48861-ef5d-4d3d-861f-7566e59b7b82", "f1ba6286-a634-46c3-91a7-cf751de57851", "Client", "CLIENT" }
+                    { "2301D884-221A-4E7D-B509-0113DCC043E1", "0c7e3411-daf7-4021-ab80-ce5c182cf1e9", "Administrator", "ADMINISTRATOR" },
+                    { "80a48861-ef5d-4d3d-861f-7566e59b7b82", "ce79c2b9-8edd-43bd-aa69-fbbe70075d1a", "Client", "CLIENT" }
                 });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Discriminator", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "B22698B8-42A2-4115-9631-1C2D1E2AC5F7", 0, "c13de162-6a4a-4b08-a245-6e675e4e97d0", "AppUser", "admin@admin.com", true, "Master", "Admin", false, null, "ADMIN@ADMIN.COM", "MASTERADMIN", "AQAAAAEAACcQAAAAEJe8FZTH3tH7J1i2ZTg2jm+pbpisu5wLWY789Lft1YdTZKRhlYt4Fpcs0n2bvtrg+A==", "XXXXXXXXXXXXX", true, "00000000-0000-0000-0000-000000000000", false, "masteradmin" });
+                values: new object[] { "B22698B8-42A2-4115-9631-1C2D1E2AC5F7", 0, "83f0590f-888f-4e68-a67e-2acbd21a7145", "AppUser", "admin@admin.com", true, "Master", "Admin", false, null, "ADMIN@ADMIN.COM", "MASTERADMIN", "AQAAAAEAACcQAAAAEJ3XFyxkI6NIAKI7AAFh+q16NSvsgNNIaNTjAQbwT2var22wJ7Z4egOgZubxCHD8AA==", "XXXXXXXXXXXXX", true, "00000000-0000-0000-0000-000000000000", false, "masteradmin" });
 
             migrationBuilder.InsertData(
                 table: "Categories",

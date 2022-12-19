@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ECommerce.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20221218210031_init")]
+    [Migration("20221219104921_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -34,7 +34,6 @@ namespace ECommerce.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("ImageUrl")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
@@ -320,14 +319,14 @@ namespace ECommerce.Migrations
                         new
                         {
                             Id = "2301D884-221A-4E7D-B509-0113DCC043E1",
-                            ConcurrencyStamp = "266affb2-2d86-4ce2-b508-0929252af31e",
+                            ConcurrencyStamp = "0c7e3411-daf7-4021-ab80-ce5c182cf1e9",
                             Name = "Administrator",
                             NormalizedName = "ADMINISTRATOR"
                         },
                         new
                         {
                             Id = "80a48861-ef5d-4d3d-861f-7566e59b7b82",
-                            ConcurrencyStamp = "f1ba6286-a634-46c3-91a7-cf751de57851",
+                            ConcurrencyStamp = "ce79c2b9-8edd-43bd-aa69-fbbe70075d1a",
                             Name = "Client",
                             NormalizedName = "CLIENT"
                         });
@@ -538,13 +537,13 @@ namespace ECommerce.Migrations
                         {
                             Id = "B22698B8-42A2-4115-9631-1C2D1E2AC5F7",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "c13de162-6a4a-4b08-a245-6e675e4e97d0",
+                            ConcurrencyStamp = "83f0590f-888f-4e68-a67e-2acbd21a7145",
                             Email = "admin@admin.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@ADMIN.COM",
                             NormalizedUserName = "MASTERADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJe8FZTH3tH7J1i2ZTg2jm+pbpisu5wLWY789Lft1YdTZKRhlYt4Fpcs0n2bvtrg+A==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJ3XFyxkI6NIAKI7AAFh+q16NSvsgNNIaNTjAQbwT2var22wJ7Z4egOgZubxCHD8AA==",
                             PhoneNumber = "XXXXXXXXXXXXX",
                             PhoneNumberConfirmed = true,
                             SecurityStamp = "00000000-0000-0000-0000-000000000000",

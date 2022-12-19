@@ -44,11 +44,14 @@ public class CategoryController : Controller
 
         category = TypeConverter.Convert<Category, CreateCategoryViewModel>(viewModel);
 
-        var path = $"{Guid.NewGuid()}{Path.GetExtension(viewModel.Image.FileName)}";
-        using var fs = new FileStream($"wwwroot/images/icons/{path}", FileMode.CreateNew, FileAccess.Write);
-        await viewModel.Image.CopyToAsync(fs);
+        if (viewModel.Image is not null)
+        {
+            var path = $"{Guid.NewGuid()}{Path.GetExtension(viewModel.Image.FileName)}";
+            using var fs = new FileStream($"wwwroot/images/icons/{path}", FileMode.CreateNew, FileAccess.Write);
+            await viewModel.Image.CopyToAsync(fs);
 
-        category.ImageUrl = path;
+            category.ImageUrl = path;
+        }
 
         await _dbContext.Categories.AddAsync(category);
         await _dbContext.SaveChangesAsync();

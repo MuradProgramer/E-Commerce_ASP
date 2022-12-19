@@ -72,10 +72,16 @@ public class AccountController : Controller
             {
                 if (await _userManager.CheckPasswordAsync(user, model.Password))
                 {
-                    await _signInManager.SignInAsync(user, true);
-
-                    if (!string.IsNullOrWhiteSpace(returnUrl)) return Redirect(returnUrl);
-                    return RedirectToAction("Index", "Home");
+                    if (await _userManager.IsInRoleAsync(user, "Administrator"))
+                    {
+                        await _signInManager.SignInAsync(user, false);
+                        return RedirectToAction("Index", "Home", new { area = "Admin" });
+                    }
+                    else
+                    {
+                        await _signInManager.SignInAsync(user, true);
+                        if (!string.IsNullOrWhiteSpace(returnUrl)) return Redirect(returnUrl);
+                    }
                 }
             }
         }
